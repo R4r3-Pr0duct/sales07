@@ -1,0 +1,65 @@
+.title {
+    padding: 35px 0 40px;
+    color: #999;
+    border-bottom: 1px solid #aaa;
+}
+
+.title span {
+    display: block;
+    margin: 0 0 15px;
+    font-size: 30px;
+    color: #555;
+}
+
+.finput-c:nth-child(odd) {
+    background: none;
+}
+
+.finput-c:last-child {
+    border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.finput {
+    position: relative;
+    display: inline-block;
+}
+
+.finput input {
+    transition: .1s all linear;
+}
+
+.finput label {
+    position: absolute;
+    top: 6px;
+    left: 15px;
+    font-size: 12px;
+    color: #aaa;
+    transition: .1s all linear;
+    cursor: text;
+}
+
+.finput-c .finput.active label {
+    top: -9px;
+    left: 0;
+    padding: 3px 5px;
+    font-size: 11px;
+    color: #fff;
+    background: #56627a;
+}

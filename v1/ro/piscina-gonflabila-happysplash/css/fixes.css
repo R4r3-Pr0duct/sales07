@@ -1,0 +1,41 @@
+/* MIDDLE FIX */
+
+.list_wrap .img_list_top img{
+	position: relative;
+    left: -5px;
+    top: -5px;
+}
+
+.list_wrap .img_list_top::after{
+	top: -5px;
+	right: -386px;
+}
+
+.list_wrap .img_list_bottom img{
+	position: relative;
+    right: -5px;
+    bottom: -5px;
+}
+
+.list_wrap .img_list_bottom::after{
+	bottom: -5px;
+	left: -386px;
+}
+
+
+@media only screen and (max-width: 900px) {
+	.img_list_top::after { right: -306px!important; }
+	.img_list_bottom::after { left: -306px!important; }
+}
+
+@media only screen and (max-width: 650px){
+	.img_list_top .img_list {
+		position: initial!important;
+	}
+
+	.img_list_bottom .img_list {
+		position: initial!important;
+	}
+}
+
+/* MIDDLE FIX-END */
