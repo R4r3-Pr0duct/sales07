@@ -1,0 +1,44 @@
+#review_section .grid-item .block.time{color:#a3a3a3;font-size:11px;padding:5px 10px 0;height:20px;}
+#review_section #grid .grid-item-wrap{width:100%;float:left;}
+#review_section #grid .grid-item .star{font-size:14px;}
+#review_section #grid .grid-item .box{padding-top:10px;padding-bottom:10px;}
+#review_section #grid .grid-item .box.item-img{padding:0}
+#review_section .grid-item{margin:7px;background-color:#F0F0F0;overflow:hidden;}
+#review_section .grid-item .item-img{position:relative;}
+#review_section .grid-item .item-img img{display:block;width:100%;max-width:100%;margin:0 auto;position:relative;}
+#review_section .grid-item .star{font-size:18px;}
+#review_section .grid-item .block{padding:10px 10px 0;}
+#review_section .grid-item .block.rating{height:27px;}
+#review_section .grid-item .block.title{padding:0 10px 0;font-weight:bold;font-size:16px;}
+#review_section .grid-item .owner{margin-top:4px;font-weight:normal;}
+#review_section #grid .item-reply{background-color:rgba(224,224,224,0.7);border-top:solid 1px #c3c3c3;}
+#review_section #grid .item-reply .item-reply-title{opacity:0.7;}
+#review_section .cell img{float:left;max-width:20%;max-height:100px;margin-right:5%;}
+#review_section .cell .desc{float:left;width:75%;}
+#review_section .price{font-size:14px;color:#282828;}
+#review_section .discount{font-size:14px;color:#008000;font-weight:bold;margin-left:7px;}
+#review_section .product{min-height:81px;}
+#review_section .product .desc .name{text-transform:uppercase;font-size:18px;font-weight:bold;}
+@media (max-width:480px){
+    #review_section #grid.grid-col-1 .grid-item-wrap{width:100%;}
+}
+@media (min-width:320px){
+    #review_section #grid .grid-item-wrap{width:50%;}
+}
+@media (min-width:480px){
+    #review_section #grid .grid-item-wrap{width:33.3333333333333%;}
+}
+@media (min-width:920px){
+    #review_section #grid .grid-item-wrap{width:25%;}
+}
+.star{color:#FFDF00;}
+@media (max-width:480px){
+    #review_section #header .text-large{font-size:19px;}
+#header #write{font-size:12px;}
+}
+@media (min-width:1150px){
+    #review_section #grid .grid-item-wrap{width:20%;}
+}
+@media (min-width:1380px){
+    #review_section #grid.grid-col-6 .grid-item-wrap{width:16.6666666666667%;}
+}
