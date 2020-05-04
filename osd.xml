@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>masazepranayama</ShortName>
+	<Description>Search Centar za masaže Pranayama - Profesionalne masaže</Description>
+	<Contact>help@wordpress.com</Contact>
+	<Url type="application/atom+xml" template="https://masazepranayama.wordpress.com/?s={searchTerms}&amp;feed=atom" />
+	<Url type="rss+xml" template="https://masazepranayama.wordpress.com/?s={searchTerms}&amp;feed=rss2" />
+	<Url type="text/html" template="https://masazepranayama.wordpress.com/?s={searchTerms}" method="GET" />
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://masazepranayama.wordpress.com/osd.xml" />
+	<LongName>Centar za masaže Pranayama</LongName>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">https://masazepranayama.files.wordpress.com/2019/01/cropped-lice-1.jpg?w=16</Image>
+	<Image height="64" width="64" type="image/jpeg">https://masazepranayama.files.wordpress.com/2019/01/cropped-lice-1.jpg?w=64</Image>
+	<Query role="example" searchTerms="photography" />
+	<Tags>blog</Tags>
+	<Developer>Automattic</Developer>
+	<SyndicationRight>open</SyndicationRight>
+	<AdultContent>false</AdultContent>
+	<Language>sr-RS</Language>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<InputEncoding>UTF-8</InputEncoding>
+	<moz:SearchForm>https://masazepranayama.wordpress.com</moz:SearchForm>
+</OpenSearchDescription>
