@@ -1,0 +1,464 @@
+.mfp-container .modal-sp .textos-subtitulos.centrado._700-w {
+    text-align: justify !important;
+}
+
+.owl-item .item p {
+    text-align: justify !important;
+}
+
+.div-tickets {display:none;}
+.logo-footer img {width:185px;}
+.logo-footer .image-2.image-3 {width:105px;margin-left:30px;}
+.modal-sp .owl-carousel p:last-child {max-width:600px;text-align:center;margin:auto;}
+.validation_error, .validation_message {font-family:"EB Garamond"!important;color:#676767 !important;}
+
+.h1.subtitulos.contacto.lightbox-aula {line-height:54px;}
+.lightbox.lightbox-gratuidad th {font-family:"EB Garamond"!important;color:#676767 !important;text-align:left!important;font-weight:400;}
+.lightbox.lightbox-gratuidad {padding-top:100px;padding-bottom:100px;}
+.lightbox.lightbox-gratuidad .container-2 {height:100%;}
+#field_3_11 {margin-top:30px;}
+.lightbox.lightbox-gratuidad .gfield_list_cell.gfield_list_11_cell1 {padding:0px 15px;}
+.lightbox.lightbox-gratuidad .gfield_list_row_odd.gfield_list_group .gfield_list_cell.gfield_list_11_cell1, .gfield_list_group gfield_list_row_even td:first-child, .gfield_list_group gfield_list_row_odd td:first-child, .lightbox.lightbox-gratuidad .gfield_list_row_even.gfield_list_group .gfield_list_cell.gfield_list_11_cell1 {padding-left:0px!important;}
+.gfield_label.gfield_label_before_complex {display:none;}
+.lightbox.lightbox-gratuidad .ginput_container.ginput_container_list.ginput_list {margin:auto;max-width:462px;}
+.lightbox.lightbox-gratuidad .gfield_html p {max-width:700px;margin:auto;margin-top:30px;margin-bottom:30px;}
+.formulario-aula .gfield_html p, .lightbox.lightbox-gratuidad .gfield_html p {color:#9e5e00!important;font-family:"EB Garamond"!important;color:#9e5e00!important;line-height:28px!important;font-size:22px;margin-top:40px;margin-bottom:40px;}
+.formulario-aula .gform_button.button, .lightbox.lightbox-gratuidad .gform_button.button {border:2px solid #9e5e00;width:125px;margin:auto;margin-top:30px;margin-bottom:60px;border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;}
+.formulario-aula .gform_fields input, .lightbox.lightbox-gratuidad .gform_fields input {color:#676767!important;border-bottom:1px solid #676767!important;max-width:460px;}
+.formulario-aula .gform_fields input::placeholder, .lightbox.lightbox-gratuidad .gform_fields input::placeholder {color:#676767!important;}
+.div-guia-profesor a {color:#9e5e00!important;text-decoration:none!important;}
+.lightbox.lightbox-gratuidad.conoce-mas-lightbox .container-2 {height:100%!important;}
+.lightbox.lightbox-gratuidad.conoce-mas-lightbox {padding-top:100px;padding-bottom:100px;}
+.lightbox.lightbox-gratuidad.conoce-mas-lightbox .h1.subtitulos.contacto.lightbox-aula, .lightbox.lightbox-gratuidad.llenar-formulario .h1.subtitulos.contacto.planifica-titulo, .lightbox.lightbox-gratuidad .section-10.lightbox-biblioteca .h1.subtitulos.contacto {text-align:center;}
+#input_2_2_date_format {display:none;}
+.formulario-aula {max-width:700px;margin:auto;}
+.modal-sp {padding:0px 30px;}
+.section-1.salas {padding-top:0!important;}
+.page-template-museo .titulos-paginas {bottom:-112px;}
+.icon-instagram {position:relative;top:5px;}
+#w-dropdown-toggle-0, #w-dropdown-toggle-1 {z-index:9;}
+#w-dropdown-toggle-0 .nav-link-text-2  a, #w-dropdown-toggle-1 .nav-link-text-2 a {color:#fff;}
+#w-dropdown-toggle-0 .nav-link-text-2  a.color-fix, #w-dropdown-toggle-1 .nav-link-text-2 a.color-fix {color:#9e5e00!important;}
+body .section-6.padding-60.planifica.audio {padding-top:80px;padding-bottom:40px;}
+body.page-template-museo .titulos-paginas {bottom:-110px;}
+.div-tickets a:nth-child(2) {display:none;}
+.modal-sp .columna-salas-galeria {margin-top:-100px;}
+.modal-sp .columnas-salas-texto {margin-top:-50px;}
+.modal-sp .item a, .div-guia-profesor a {text-decoration:underline;color:#007abc;}
+.h1.subtitulos.biblioteca.salas {margin:auto!important;display:block!important;position:relative;top:-30px;max-width:unset!important;text-align:left;}
+.owl-item .item p {
+  margin-bottom: 20px;
+  font-family: 'EB Garamond', sans-serif;
+  color: #676767;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: left;
+font-size:18px;
+}
+
+.contenedor-modal.lightbox-internas-pabellones {
+    opacity: 1 !important;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: block;
+    height: 100vh;
+}
+
+.mfp-bg {
+    background-color: #fcfff7 !important;
+    opacity: 1 !important;
+}
+
+.eventon_events_list .eventon_list_event .desc_trig,
+.evopop_top {
+    background-color: transparent !important;
+    border: none;
+}
+
+.eventon_events_list .eventon_list_event .evcal_list_a {
+    border: none !important;
+}
+
+.evo-filter-btn {
+    display: none !important;
+}
+
+.evo_month_title {
+    font-family: 'Brandon Grotesque', sans-serif !important;
+    font-weight: 400 !important;
+    letter-spacing: 1px;
+    font-size: 16px !important;
+    color: #883905 !important;
+}
+
+.ajde_evcal_calendar .calendar_header .evcal_arrows {
+    border: 0px !important;
+    background-color: transparent !important;
+}
+
+.ajde_evcal_calendar .calendar_header .evcal_arrows .fa {
+    border: 0px !important;
+    background-color: transparent !important;
+    color: #883905 !important;
+}
+
+.evcal_desc2.evcal_event_title {
+    font-family: 'EB Garamond', sans-serif !important;
+    font-weight: 400 !important;
+    color: #883905 !important;
+    text-transform: none !important;
+    font-size: 22px !important;
+}
+
+.evcal_event_subtitle {
+    font-size: 12px !important;
+    letter-spacing: 0.4px;
+}
+
+.date {
+    font-family: 'Brandon Grotesque', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.month {
+    border-bottom: 1px solid;
+    letter-spacing: 0.5px;
+}
+
+#evcal_list {
+    border: 0px !important;
+}
+
+#nombre-testimonio {
+    font-size: 30px;
+    text-align: left !important;
+}
+
+#parrafo-testimonio {
+    font-size: 17px;
+    text-align: left !important;
+}
+
+
+.lightbox.lightbox-tienda .textos-subtitulos.centrado._700-w {
+    max-width: 500px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+.menu-generico li:first-child #lista-primario::after {
+    content: "";
+    background-image: url(images/flecha-tab-cafe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu-selector .contenedor-informacion {
+    box-shadow: unset !important;
+}
+
+.evo_end {
+    display: none !important;
+}
+
+.menu-selector .textos-subtitulos {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 27px;
+}
+
+.menu-selector .textos-subtitulos.titulos {
+    margin-bottom: 4px !important;
+    max-width: unset !important;
+    font-size: 20px !important;
+}
+
+h3#sala-origen,
+h3#pabellon {
+    cursor: pointer;
+}
+
+.item-menu .contenedor-informacion {
+    display: none;
+}
+
+.contenedor-informacion-mayor {
+    display: block;
+}
+
+.menu-generico {
+    position: relative;
+    display: block;
+    background-color: #fcfff7 !important;
+    top: -6px;
+}
+
+.tabs.dropdown {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    z-index: 9;
+    display: none;
+}
+
+.menu-generico li {
+    cursor: pointer;
+    padding: 0px;
+    background-color: #fcfff7 !important;
+}
+.menu-generico li a { display: block; padding: 2px 15px;}
+
+.page-template-museo .item-menu h3 {
+    margin-top: 0px !important;
+    margin-bottom: 15px !important;
+    text-align: left;
+}
+
+.page-template-museo .menu-generico .tabs.dropdown {
+    font-size: 13px;
+}
+
+.page-template-museo .carruinterno .item .textos-subtitulos {
+    max-width: 100% !important;
+    margin-bottom: 0px !important;
+    line-height: 24px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.page-template-museo .tabs.dropdown li:last-child {
+    padding-bottom: 10px;
+}
+
+.page-template-museo .tabs.dropdown {
+    margin-top: 5px;
+}
+
+.page-template-museo #modal1-sala .owl-nav, .modal-sp .owl-nav {
+    position: absolute;
+    bottom: 50%;
+    right: 0px;
+}
+
+.page-template-museo #modal1-sala .owl-nav button, .modal-sp .owl-nav button {
+    background-color: #fff !important;
+    border-radius: 50% !important;
+    width: 35px;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.15);
+    margin: 0px 5px;
+}
+
+.page-template-museo #modal1-sala .owl-nav span, .modal-sp .owl-nav span {
+    font-size: 42px;
+    line-height: 26px;
+    position: relative;
+    top: 2px;
+    color: #9e5e00 !important;
+}
+
+
+.texto-responsive p{display:none!important;} 
+.owl-item .item p:last-child {text-align:left!important;margin-left:0px!important;margin-right:0px!important;}
+@media screen and (max-width: 1200px) {
+    .modal-sp .owl-carousel .item {padding-left:50px;padding-right:50px;}
+}
+
+
+@media screen and (max-width: 991px) {
+	.modal-sp .owl-nav {position:absolute;bottom:64%;right:0px;}
+	.texto-responsive {display:block!important;}
+	.texto-responsive p {display:block!important;margin-top:15px;}
+	.lightbox-internas-pabellones .owl-item .item .texto-responsive p:first-child {display:block!important;}
+	.lightbox-internas-pabellones .texto-responsive .owl-item .item p:first-child {display:block!important;}
+	.modal-sp .owl-carousel .item p {display:none;}
+    .logo-footer .image-2.image-3 {position:relative!important;}
+    .logo-footer .image-2.image-3 {margin-left:0px;padding-left:0px;}
+    .modal-sp .owl-carousel .item {padding-left:0px;padding-right:0px;}
+    .lightbox-internas-pabellones .owl-item .item p:first-child {display:none!important;}
+    .owl-item .item p:last-child {display:block!important;margin-top:30px;}
+    .lightbox-cerrar {width:unset!important;}
+    .section-3.elmuseo .texto-izquierdo {margin-top:20px;}
+    .section-3.elmuseo .h1.subtitulos.biblioteca.testimonial {text-align:center;}
+    .h1.subtitulos.biblioteca.salas {text-align:center;}
+    .modal-sp .columna-salas-galeria {margin-top:0px!important;}
+    .columna-actividades,
+    .columna-ciclo {
+        height: auto;
+        padding: 15%;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .page-template-museo .titulos-paginas{bottom:0px!important;}
+
+}
+
+@media screen and (max-width: 576px) {
+    .modal-sp .owl-carousel .item {padding-left:0px!important;padding-right:0px!important;}
+    .lightbox.lightbox-tienda .textos-subtitulos.centrado._700-w {max-width:400px;}
+    .page-template-museo .titulos-paginas{bottom:0px!important;}
+    .lightbox.lightbox-gratuidad .textos-subtitulos.gratuidad {padding-left:0px;padding-right:0px;}
+    .lightbox {padding-left:15px;padding-right:15px;}
+    .formulario-aula .gform_button.button, .lightbox.lightbox-gratuidad .gform_button.button {margin-bottom:120px;}
+    .lightbox.lightbox-gratuidad.conoce-mas-lightbox {padding-top:60px;padding-bottom:60px;}
+}
+
+.page-template-museo #modal1-sala  { height: 100%}
+
+.page-template-museo #modal1-sala h1 {
+    font-size: 42px;
+    margin-bottom: 50px
+}
+
+.page-template-museo #modal1-sala.fix-recorre h3 {
+    font-family: 'EB Garamond', sans-serif;
+    color: #676767;
+    font-weight: 400;
+    font-size: 38px !important;
+}
+.page-template-museo #modal1-sala.fix-recorre h3:hover { color: #9e5e00}
+
+.fix-recorre .contenedor-informacion-mayor { display: none !important;}
+.fix-recorre .columnas-salas-texto { width: 100%}
+.fix-recorre h3 { text-align: center !important}
+.fix-recorre .esconder { display: block !important}
+
+
+#modal1-sala .esconder{ display: none}
+
+.fix-recorre .columns-salas-pabellones.w-row { width: 100%; padding-top: 200px;}
+.page-template-museo #modal1-sala .columns-salas-pabellones.w-row {padding-top: 140px;}
+.page-template-museo #modal1-sala .columns-salas-pabellones.w-row { margin-top: 0px !important} 
+.page-template-museo #modal1-sala h3.subtitulos { font-size: 32px; line-height: 36px} 
+.page-template-museo #modal1-sala #lista-primario { float: right}
+
+.page-template-museo #modal1-sala .texto-rutas.selecciona { font-size: 17px; letter-spacing: 0.8px}
+.page-template-museo #modal1-sala .texto-rutas.selecciona.absoluto { position: absolute; top:-6px; margin: 0px}
+.page-template-museo #modal1-sala  .texto-rutas { font-size: 14px; letter-spacing: 0.2px;}
+.menu-generico li { text-align: right}
+
+
+.page-template-museo #modal1-sala .columna-salas-galeria { padding: 0px !important}
+.page-template-museo #modal1-sala h3.f-activo { text-decoration: underline;}
+
+
+
+
+
+.gform_fields input {
+    background: transparent !important;
+    border-bottom: 1px solid #883905;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-top: 0px !important;
+    padding: 10px 0px;
+    width: 100%;
+    font-size: 18px;
+    color: #9e5e00!important;
+    letter-spacing: 0.4px;
+     font-family: 'EB Garamond', sans-serif;
+ 
+}
+
+
+
+
+.gform_button.button {
+    background: transparent;
+    border: 0px;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+    font-family: Brandon, sans-serif;
+    font-weight: 500;
+    color: #9e5e00;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px;
+    border-bottom: 1px solid;
+    cursor: pointer;
+    font-family: 'Brandon Grotesque', sans-serif;
+    height: 40px;
+    min-width: 80px;
+}
+
+.gform_footer.top_label {
+    margin-top: 40px !important;
+}
+
+.gform_body li {
+    list-style: none !important;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #9e5e00;
+  opacity: 1;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #9e5e00;
+  opacity: 1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #9e5e00;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #9e5e00;
+  opacity: 1;
+}
+
+.split-section-full-width.salas {
+    background: #f4f8ee !important
+}
+
+.page-template-pabellones .sala-5 .div-derecho-salas .button-2.ver-mas.w-button.modal2-5 {
+    display: none !important
+}
+
+.modal-sp .contenedor-modal {
+    padding-top: 110px;
+}
+
+.modal-sp .columna-salas-galeria {
+    padding: 0px !important
+}
+.h1.subtitulos.biblioteca.pmuseo {text-align:center;margin-bottom:60px!important;margin-top:30px;}
+.parrafo-testimonio {
+    font-family:"EB Garamond";
+    color:#676767;
+    font-size:20px;
+    line-height:28px;
+    margin-top:15px;
+}
+.contenedor-testimonial {width:48.8%;margin:15px 5px;}
+
+.contenedor-testimonial {
+  display: inline-block;
+  width: 48.9%;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.fila-testimonios {
+  width: 100%;
+}
+.section-4.elmuseo.plano-de-museo.padding-60 {padding-top:100px!important;margin-top:-60px;background-color:#f4f8ee;}
+
+
+.button-2:hover { background: #9e5e00 !important; color: #fff !important} 
+.boton_leer:hover, .gform_button.button:hover {color: #514841; border-bottom: 2px solid #514841}
