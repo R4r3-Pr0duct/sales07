@@ -1,3 +1,18 @@
 User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
+Disallow: /searchresults.aspx
+Disallow: /App_Code/
+Disallow: /Bin/
+Disallow: /ccadmin/
+Disallow: /cms/
+Disallow: /CuteSoft_Client/
+Disallow: /images_noindex/
+Disallow: /ScreenCapture/
+# Disallow: /tracking/
+Disallow: /files/
+Disallow: /couponflashfiles/
+Disallow: /popup/writereview.aspx?*
+Disallow: /scan?*
+
+
+Sitemap: https://www.safirestaurant.com/image_sitemap.xml
+Sitemap: https://www.safirestaurant.com/sitemap.xml

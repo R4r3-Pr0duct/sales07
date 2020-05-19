@@ -1,0 +1,447 @@
+
+.formslable{display:none!important}body,a.button:link,a.button:visited,.disablelink,a.ugcbtnwrite,#goog-wm-sb,.enablelink,#floatingbooknow,#backtotop,.button,button,#gdprsubmit,.wel-msg{font-family:'Merriweather-Regular'}input,select,textarea{font-family:inherit}h1,h2,h3,h4,h5,#header,.hotel_name,.signup-txt-popup,.menumain-title,.header,.contact_hotel_name,.specialpkg-title,.wel-txt,.dine-maintitle,.quote-sec,.insta-title{font-family:'Merriweather-Regular';font-weight:600}.heroimg-caption,#breadcrumb,.popular-links .footer-ul li,.right-aboutus-content,.about-des,.location-dest,.contact_hotel_add,.group-leftsec-content,.contact-phone-right a{font-family:'Merriweather-Regular'}#photogallery-thumbs li a::after,.location-sec:before,.time-slot1:before,.time-slot2:before,.time-slot1:before{font-family:'MilestoneRetinaDisplayIcons'}#fontchange{position:fixed;bottom:0;height:40px;z-index:999}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,main,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}.top-navigation a.navON{color:#9c6936}.popular-links .footer-ul li a.navON{color:#9c6936}.fb_iframe_widget{display:inline-block;position:relative;margin:0 15px 0 0}.clear{clear:both;float:none;height:0}.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}.clearfix{display:inline-block}* html .clearfix{height:1%}.clearfix{display:block}input,select,textarea{border:1px solid#ccc;background-color:#ffffff;border-radius:0;box-sizing:border-box;-webkit-box-sizing:border-box;font-size:15px;margin:0;padding:0}input:not([type=checkbox]):not([type=radio]){padding:0 8px;height:51px;line-height:51px}select{height:51px;line-height:normal;padding:10px}textarea{padding:4px 8px;resize:none;display:block}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0;color:#444444;background:#ffffff}h1,h2,h3,h4,h5{display:block;color:#9c6936;font-size:24px;font-weight:normal;text-transform:capitalize}.pagecon h1,.conpage h1,.touchphotogallery h1,#adawebsiteconformance h1{text-align:center}h1{padding-bottom:20px}h2{font-size:22px;padding-bottom:5px}h2.padbottom{display:block;margin:0;padding-bottom:15px}h3,h4{font-size:20px;padding-bottom:5px}.box{display:block;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#ccc;padding:20px 0 20px 0}.box1{display:block}.box2{display:block;padding:20px 0}.box3{display:block;padding:20px 0}.box4{display:block;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#ccc;padding:0 0 20px 0}.boxspacer{display:block;height:25px}.column21,.column22{float:left;padding-right:25px;width:47%}.column22{padding-right:0}.column31,.column32,.column33{float:left;padding-right:10px;width:32%}.column33{padding:0}.column41,.column42,.column43{float:left;padding-right:10px;width:24%}.column44{width:24%}.column51,.column52,.column53,.column54{float:left;padding-right:9px;width:19%}.column55{width:19%}.baseline,.clearboth{clear:both;height:0}.milestone{font-size:12px;letter-spacing:.025em;line-height:20px}.milestone2{font-size:12px;line-height:20px}.anchorlink{font-size:12px;line-height:20px}a:link,a:visited{text-decoration:none;list-style:none;cursor:pointer;color:#595959;outline:none}a:hover,a:focus{text-decoration:none;list-style:none;cursor:pointer;color:#9c6936}a.milestone:link,a.milestone:visited{white-space:nowrap}a.milestone:hover{white-space:nowrap}.cornerinner{padding:6px 0 10px 16px;float:right}.box ul,.box1 ul,.box2 ul,.box3 ul,.hotelbox ul{margin:0;padding:8px 0 0 0;list-style:none}.box ul li,.box1 ul li,.box2 ul li,.box3 ul li,.hotelbox ul li{position:relative;height:100%;line-height:22px;margin:0;padding:0 0 8px 18px}.box ul li:before,.box1 ul li:before,.box2 ul li:before,.box3 ul li:before,.hotelbox ul li:before{content:'';width:6px;height:6px;border-radius:100%;background:#000;position:absolute;left:0;top:8px}ul.anchor{background-color:#ffffff;border-color:#d3d3d3;border-style:solid;border-width:1px;display:block;float:left;list-style:none outside none;margin:0;padding:10px 0 10px 10px}ul.anchor li{background-image:url("https://www.safirestaurant.com/images_noindex/sprite.png");background-repeat:no-repeat;background-position:-208px -59px;line-height:28px;margin:0;padding:0 15px 0 15px}.box ul.padbottom li,.box2 ul.padbottom li,.box3 ul.padbottom li{padding-bottom:20px}.box li.padbottom,.box2 li.padbottom,.box1 li.padbottom,.box3 li.padbottom{padding-bottom:10px}.box ul.padbottom li:last-child,.box1 ul.padbottom li:last-child,.box2 ul.padbottom li:last-child,.box3 ul.padbottom li:last-child{padding-bottom:0}.errTop{font-size:18px;line-height:26px}.oh{border-right:1px solid#ccc;color:#444444;font-size:25px;margin-right:15px;padding-right:15px}.er{color:#444444;font-size:18px}.errSugg{font-size:18px}.er-maindiv{margin:0 auto;padding-top:25px;width:100%}.er-or{float:left;font-size:28px;padding-top:20px;text-align:center;width:100%}.er-back{float:left;font-size:14px;padding:20px 0;text-align:center;width:100%}.er-contentbox-wrap{background-color:#ccc;float:left;margin-right:2%;padding-left:0;text-align:center;width:23.5%}.er-contentbox-wrap.last-child{margin-right:0}.er-contentbox-wrap .snippetbox{border:medium none;margin:0;padding:11px 0}.er-maindiv img{height:auto;width:90%}.er-back .button{cursor:pointer;margin:0 auto;width:290px;height:36px;line-height:33px}#goog-fixurl{margin:0 auto;max-width:543px}#goog-wm-qt{float:left;margin:0 10px 0 0}#goog-wm-sb.button{box-shadow:none;float:left;height:42px;line-height:32px;width:150px}.subheader{margin-top:10px;padding:5px 0;border-bottom:1px solid#ccc}.subheader h1,.subheader h2{color:#444444;font-size:20px;font-weight:normal;line-height:23px;margin:0;padding:0}#goog-fixurl ul li.search-goog{padding:0;font-size:15px}#goog-fixurl ul li.search-goog:before{display:none}#goog-wm ul{padding-top:0}#goog-wm form{margin-top:10px}body{font-size:16px;line-height:24px;color:#444444;letter-spacing:.04em;background-color:#ffffff}#wrapper{padding:140px 0 0;min-width:1024px;margin:0 auto;overflow:hidden}#main{background-color:#ffffff;border-bottom:1px solid#ccc;position:fixed;top:0;display:block;width:100%;height:141px;z-index:124}.container{width:100%;max-width:1230px;padding:0 30px;box-sizing:border-box;margin:0 auto;position:relative}header{width:100%;box-sizing:border-box;-webkit-box-sizing:border-box;max-width:1800px;margin:0 auto;left:0;right:0}header .container{width:94%;max-width:1170px;padding:0;box-sizing:border-box;margin:0 auto;position:relative}.logo{position:absolute;left:-38px;top:-9px}.menu-sec{position:absolute;right:219px;top:59px}.menu-sec.noresbtn{right:0}nav.top-navigation ul li{float:left;padding:0 8px;position:relative}nav.top-navigation ul li a{color:#595959;font-size:17px;letter-spacing:0}nav.top-navigation ul li a:hover,nav.top-navigation ul li a:focus{color:#9c6936}.reservation-bg{display:none}.reserve-btn{position:absolute;right:0;top:44px;width:185px}.reserve-closebox{display:none}.res-ico{font-size:17px;position:relative;top:3px;margin-left:7px}#middle{display:block;height:auto;margin:0 auto;position:relative;width:100%;z-index:0;background:#ffffff}#mainimage .flex-control-nav{bottom:9px;left:0;position:absolute;text-align:center;margin:0 auto;right:0;display:none}#mainimage .flex-control-nav li{margin:0 11px 0 0}#mainimage .flex-control-nav li a{width:11px;height:11px;line-height:20px;background:#ffffff;display:block;border-radius:100%;position:relative}#mainimage .flex-control-nav li a:before{content:"";position:absolute;left:0;right:0;top:0;bottom:0;width:11px;height:11px;opacity:0;background:#ffffff;border-radius:100%;transition:all .4s ease;-webkit-transition:all .4s ease}#mainimage .flex-control-nav li a:hover:before,#mainimage .flex-control-nav li a:focus:before,#mainimage .flex-control-nav li a.flex-active:before{left:-25%;top:-25%;width:18px;opacity:1;height:18px;transition:all .4s ease;-webkit-transition:all .4s ease}#mainimage .flex-control-paging li a.flex-active{background:#ffffff}#mainimage img{width:100%;height:auto;display:block}.caption-data{position:absolute;text-align:center;color:#ffffff;left:0;right:0;top:45%;font-size:37px;text-shadow:0 0 10px rgba(0,0,0,1);background-color:rgba(0,0,0,1);width:30%;margin:0 auto;padding:22px}.mainimg-bottom-caption{width:100%;background:#fff;text-align:center;box-shadow:0 0 6.24px 1.76px rgba(0,0,0,.06);border-bottom:1px solid#ccc;border-top:1px solid#ccc;height:68px;line-height:68px}.inner-wrapper-caption{width:100%;max-width:1230px;margin:0 auto;padding:0 30px;box-sizing:border-box}.heroimg-caption,.call-to{display:inline-block;padding:0 30px}.heroimg-caption{border-right:1px solid#ccc;font-size:14px;color:#444444;line-height:24px}.call-to{font-size:14px;letter-spacing:0;line-height:24px}.call-to [class*="icon-"]{margin-right:7px;display:inline-block;font-size:15px;position:relative;top:1px}#header{text-align:center;font-size:50px;color:#9c6936;line-height:55px;letter-spacing:0}#header h1{text-align:center;font-size:50px;color:#9c6936;line-height:55px;letter-spacing:0}#breadcrumb{text-align:center;padding-top:30px;padding-bottom:30px;color:#444444;font-size:14px}.brd-icon{display:inline-block;color:#9c6936;margin:0 8px;font-size:20px;line-height:10px;position:relative;top:3px;width:auto;text-align:center}.footer-warp{margin:78px 0 50px;text-align:center;position:relative}.signup-txt{font-size:14px;padding-bottom:18px}.signup-btn{max-width:240px;margin:0 auto 50px}.hotel_name{font-size:33px;display:block;line-height:40px;letter-spacing:0;color:#9c6936;padding-bottom:0}.hotel_add{display:block;font-size:14px;padding-top:8px;padding-bottom:8px}.social-media ul li{display:inline-block;margin:0 5px}.social-media ul li a{color:#444444}.social-media ul li a:hover,.social-media ul li a:focus{color:#9c6936}.brandlogos{padding:30px 0 30px}.popular-links .footer-ul li{display:inline-block;margin:0 10px 0 0;padding:0 10px 0 0;border-right:1px solid#ccc;line-height:16px;font-size:12px}.popular-links .footer-ul li:last-child{border-right:0}.popular-links .footer-ul li a{color:#444444}.popular-links .footer-ul li a:hover,.popular-links .footer-ul li a:focus{color:#9c6936}.menuwrapper-sec{padding-top:0}.menu-sectab{position:relative}.menumain-title{text-align:center;font-size:50px;color:#9c6936;line-height:50px}.tab-box{padding:30px 0 30px;text-align:center}.tab-box ul li{display:inline-block;margin:0 25px}.tab-box ul li a{color:rgba(0,0,0,.34);display:block;text-transform:capitalize;border-bottom:2px solid#ccc}.tab-box ul li.select-tab a,.tab-box ul li a:hover,.tab-box ul li a:focus{color:rgba(0,0,0,1);border-bottom:2px solid#ccc}.commonmenu{width:34.2%;float:left;box-sizing:border-box}.commonmenu:first-child{width:31.6%;padding:30px 30px 30px 0}.commonmenu:nth-child(2){padding:30px;border-left:1px solid#ccc}.commonmenu:last-child{padding:30px;border-left:1px solid#ccc}.menu-btn{width:251px;margin:57px auto 0}body.our-menu .menu-sectab::before{top:-18px}.MENU{margin-bottom:50px}.MENU_INTO{text-align:center;padding-bottom:20px;display:none}.MENU_INTO h2{font-size:28px}.tab-list a{font-size:16px}.section-main-title{text-align:center;margin-top:10px;margin-bottom:10px}.SECTION_INTRO{padding:10px 0 30px;font-size:20px;text-align:center}.iteam_desc{display:block;font-style:italic;font-size:17px}.ITEM{width:33%;display:inline-block;margin-left:-4px;border-right:0;box-sizing:border-box;padding:10px 30px;margin-bottom:0;height:100%;vertical-align:top;position:relative}.ITEM_INTRO span{font-size:20px}.ITEM:nth-child(3n){padding-right:10px}.ITEM:nth-child(3n):before{display:none}.ITEM_MAIN{overflow:hidden}.ITEM:nth-child(3n+1){padding-left:0;margin-left:0}.addon-name,.addon-price{display:inline-block}.section-main-box{padding-bottom:50px;border-bottom:1px solid#ccc;margin-top:50px}.section-main-box:first-child{margin-top:20px}.section-main-title h2{font-size:27px}.menuwrapper-sec .section-main-box{border-bottom:none;padding-bottom:0}html[data-useragent*='rv:11.0'] .homesection2::before,.ie .homesection2::before,.win.safari .homesection2::before,.mac.safari .homesection2::before{background:url(https://www.safirestaurant.com/images_noindex/leafbgie.jpg) no-repeat top left}html[data-useragent*='rv:11.0'] .homesection4::before,.ie .homesection4::before,.win.safari .homesection4::before,.mac.safari .homesection4::before{background:url(https://www.safirestaurant.com/images_noindex/leafrightbgie.jpg) no-repeat top right}html[data-useragent*='rv:11.0'] .content-area::before,.ie .content-area::before,.win.safari .content-area::before,.mac.safari .content-area::before{background:url(https://www.safirestaurant.com/images_noindex/rightsidebghomeie.png) no-repeat top left}html[data-useragent*='rv:11.0'] .inner-bg::before,.ie .inner-bg::before,.win.safari .inner-bg::before,.mac.safari .inner-bg::before{background:url(https://www.safirestaurant.com/images_noindex/aboutbgie.jpg) no-repeat top right}.win.safari .ITEM::before,.mac.safari .ITEM::before{height:200%}.commentPopup-blockrfp .mfp-inline-holder .mfp-content{background:#fff;width:375px;padding:25px;box-sizing:border-box}.signup-txt-popup{font-size:23px;border-bottom:2px solid #ccc;color:#9c6936;padding-bottom:10px;margin-bottom:20px}.mfp-close-btn-in .mfp-close{color:#ffffff;width:35px;height:35px;background:#9c6936;line-height:20px;font-size:30px}#popup-form{display:none}.commentPopup-blockrfp #popup-form{display:block}#popup-form .form-input input{width:100%}#popup-form .form-input{margin-bottom:20px}#popup-form .commentcoderow{margin-bottom:15px}#popup-form .commentbtncode .commentcodecol5,#popup-form .commentbtncode .req-field.commentcodecol6{display:inline-block;vertical-align:middle}.commentbtncode .req-field.commentcodecol6{margin-left:10px}.commentinput{position:relative}#popup-form .error-message{bottom:-22px}.instagram-post-image{width:24.3%;display:block;float:left;line-height:0;margin-right:.9%;margin-bottom:.9%}.instagram-post-image:nth-child(4n){margin-right:0}.instagram-post-image img{width:100%;height:auto}.insta-feed::after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}.instagram-post-image a:link,.instagram-post-image a:visited{display:block;position:relative}.instagram-post-image a:before{content:"";position:absolute;background:rgba(0,0,0,.5);width:100%;height:100%;opacity:0;transition:all .5s ease;-webkit-transition:all .5s ease}.instagram-post-image a::after{content:"";position:absolute;opacity:0;font-family:"milestoneretinadisplayicons";color:#ffffff;font-size:2.6vw;left:0;right:0;top:0;bottom:0;height:2.6vw;width:2.6vw;margin:auto;line-height:2.6vw;transition:all .5s ease;-webkit-transition:all .5s ease}.instagram-post-image a:hover:before,.instagram-post-image a:focus:before,.instagram-post-image a:hover:after,.instagram-post-image a:focus:after{opacity:1;transition:all .5s ease;-webkit-transition:all .5s ease}.sitemapinfo ul li{display:inline-block;width:30%}.sitemappadbottom ul li{display:inline-block;width:31%}nav.top-navigation ul li ul.dropnav{position:absolute;left:8px;top:24px;background-color:#ffffff;border:1px solid#ccc;width:180px}nav.top-navigation ul li ul.dropnav li{display:block;float:none;padding:0}nav.top-navigation ul li ul.dropnav li a{display:block;padding:0 20px;line-height:36px}.fullwidth-slider{position:relative;z-index:2}.specialpkg-des~a.button{margin-top:20px;margin-left:30px;display:inline-block}.specialpkg-button .button{margin-left:30px;margin-top:25px;width:250px}.additonal-list{padding-left:30px;margin-top:14px}#msCookieBanner .right button{line-height:27px;height:36px}.bx-controls.bx-has-pager.bx-has-controls-direction{display:none}#mainimage .flex-direction-nav{}#mainimage .flex-direction-nav li a{width:auto;height:50px;line-height:50px;right:inherit;text-indent:0;top:0;bottom:0;margin:auto;display:inline-block;vertical-align:middle;background:#9c6936;padding:0 15px;color:#fff}.ic-arrow{font-size:26px;display:inline-block;vertical-align:middle}#mainimage .flex-direction-nav li a.flex-prev{left:0;text-align:left}#mainimage .flex-direction-nav li a.flex-next{right:0;text-align:right}em,i{font-style:italic}strong,b{font-weight:bold}sub{vertical-align:sub;font-size:smaller}sup{vertical-align:super;font-size:smaller}ol{list-style-type:decimal;margin-left:30px;margin-top:25px}ul.unorderlist{list-style-type:disc;margin-left:30px;margin-top:15px;margin-bottom:25px}.home-content-section ul,.bottommiddle ul,.menusnippet ul,.specialpage ul,.groupsnippet ul,.pagecon ul,.right-aboutus-content ul,.aboutsnippet ul,.conpage ul,.special-snippet ul,.MENU .menu_desc ul,.menu-section-box .section-main-description ul,.ITEM_INTRO .iteam_desc ul{list-style-type:disc;margin-left:30px;margin-top:15px;margin-bottom:25px}.MENU .menu_desc ul,.menu-section-box .section-main-description ul{list-style-position:inside}.about-bullet-list ul{list-style-type:none;margin-left:0;margin-top:0;margin-bottom:0}.time-slot1 ul{list-style-type:none;margin-left:0;margin-top:0;margin-bottom:0}.box ul li,.box1 ul li,.box2 ul li,.box3 ul li,.hotelbox ul li{padding-left:0}.box ul li:before,.box1 ul li:before,.box2 ul li:before,.box3 ul li:before,.hotelbox ul li:before{display:none}
+.contentbg-section{width:100%;position:relative}.contentbg-section:before{content:'';background:url(https://www.safirestaurant.com/images_noindex/contentbg.png) no-repeat top center;width:100%;height:100%;position:absolute;left:0;right:0;top:0;display:none}.wel-txt{font-size:100px;color:#9c6936;line-height:120px;letter-spacing:0}.wel-msg{font-size:22px;line-height:22px;text-transform:capitalize;letter-spacing:0;display:block;margin-top:-15px;margin-right:-260px}.welcome-msg{text-align:center;padding-top:51px;padding-bottom:43px}.home-content-section{margin-bottom:50px}.home-sec{padding-bottom:117px}.home-chefimg{width:42.7%;float:left}.chefimg-left{padding-left:30px;position:relative}.chefimg-left:before{content:'';width:94%;height:100%;position:absolute;right:0;top:0;box-shadow:0 0 22.62px 6.38px rgba(0,0,0,.14)}.chefimg-left img{max-width:100%;display:block;height:auto}.content-rightsec{width:57.3%;float:right;padding-left:100px;box-sizing:border-box}.content-area{padding-top:30px;position:relative}.content-area::before{content:'';background:url(https://www.safirestaurant.com/images_noindex/rightsidebghome.png) no-repeat top left;width:242px;height:73px;position:absolute;left:0;top:25px;mix-blend-mode:darken;-webkit-mix-blend-mode:darken;-moz-mix-blend-mode:darken;-o-mix-blend-mode:darken;-ms-mix-blend-mode:darken;display:none}.time-slot-sec{padding-top:50px}.time-slot1,.time-slot2{display:inline-block;vertical-align:top;padding-left:30px;position:relative}.time-slot1:before{content:'';font-size:20px;position:absolute;left:0;top:0}.time-slot1:before{content:''}.time-slot2{padding:0}.time-slot1{padding-right:40px}.home-middleslider .bx-wrapper .bx-pager{bottom:60px;left:0;position:absolute;top:inherit;text-align:center;margin:0 auto;right:0}.home-middleslider .bx-wrapper .bx-pager .bx-pager-item a{background:none;border:1px solid#ccc;box-shadow:none;height:10px;width:10px;margin:0 5px;border-radius:100%;color:#ffffff}.home-middleslider .bx-wrapper .bx-pager .bx-pager-item a.active{background:#ffffff}.home-middleslider img{width:100%;height:auto}.home-middleslider li:before{-webkit-box-shadow:inset 0 0 43px 0 rgba(0,0,0,.65);-moz-box-shadow:inset 0 0 43px 0 rgba(0,0,0,.65);box-shadow:inset 0 0 43px 0 rgba(0,0,0,.65);content:'';position:absolute;width:100%;height:100%;top:0;left:0}.home-middleslider .bx-controls-direction{position:absolute;bottom:0;width:88px;height:88px;background:#9c6936;border-radius:100%;left:0;right:0;margin:0 auto;text-align:center;bottom:-44px}.home-middleslider .bx-wrapper .bx-controls-direction a{height:auto;margin-top:0;outline:0 none;position:relative;text-indent:-9999px;top:0;width:25px;z-index:9999;color:#ffffff}.home-middleslider .bx-wrapper .bx-prev{left:-3px}.home-middleslider .bx-wrapper .bx-next{right:-3px}.home-middleslider .nav-arw{font-size:20px;color:#ffffff;line-height:88px}ul.middleslider{position:relative}.bottommiddle{width:100%;position:relative}.bottommiddle:before{content:'';background:url(https://www.safirestaurant.com/images_noindex/contentbg.png) no-repeat top center;width:100%;height:100%;position:absolute;left:0;right:0;top:452px;z-index:0;display:none}.dine-rightimg{max-width:1155px;float:right;width:94%;box-shadow:0 0 22.62px 6.38px rgba(0,0,0,.14)}.dine-left-content{max-width:1170px;margin:0 auto;position:relative}.dine-secinner{max-width:445px;background:#ffffff;position:absolute;top:200px;z-index:8;padding:53px 0}.dine-rightimg img{max-width:100%;display:block;height:auto}.homesection2{margin-top:60px;position:relative}.homesection2::before{content:'';background:url(https://www.safirestaurant.com/images_noindex/leafbg.jpg) no-repeat top left;width:576px;height:100%;position:absolute;left:0;right:0;top:-251px;z-index:0;mix-blend-mode:luminosity;-webkit-mix-blend-mode:luminosity;-moz-mix-blend-mode:luminosity;-o-mix-blend-mode:luminosity;-ms-mix-blend-mode:luminosity;display:none}.dinehead-sec{letter-spacing:.1em;padding-left:30px;border-left:3px solid#444444;line-height:22px;display:block;margin-bottom:25px}.dine-maintitle{font-size:30px;display:block;line-height:32px;color:#9c6936;padding-bottom:20px}.dine-des{padding-left:35px;display:block;padding-bottom:47px;padding-right:35px}a.button-underline{color:#000;font-size:14px;display:inline-block;border-bottom:1px solid #000}a.button-underline:hover,a.button-underline:focus{color:#9c6936}.homesection3{padding:60px 0 0;text-align:center;max-width:1170px;margin:0 auto;position:relative}.food-quote{max-width:670px;margin:0 auto}.quote-sec{font-size:50px;display:block;line-height:65px;letter-spacing:0;color:#9c6936;padding-bottom:20px}.designation-sec{font-size:14px;line-height:24px}.dine-main-sec2 .dine-rightimg{float:left}.dine-main-sec2 .dine-secinner{right:115px;padding:53px 0 53px 53px}.homesection4{margin-top:0;position:relative}.homesection4::before{content:'';background:url(https://www.safirestaurant.com/images_noindex/leafrightbg.jpg) no-repeat top right;width:332px;height:292px;position:absolute;right:0;top:-170px;z-index:0;mix-blend-mode:luminosity;-webkit-mix-blend-mode:luminosity;-moz-mix-blend-mode:luminosity;-o-mix-blend-mode:luminosity;-ms-mix-blend-mode:luminosity;display:none}.dine-main-sec2 .btn{width:251px}.insta-sec{margin:90px 0 0;position:relative}.insta-pics{text-align:center}.insta-shortdes{letter-spacing:.1em;margin-bottom:24px}.insta-title{font-size:50px;display:block;line-height:65px;letter-spacing:0;color:#9c6936;padding-bottom:0}.section-main-box{display:none}.menu-sectab-sec .menu-sectab{margin-top:60px}.section-main-box:first-child{display:block}.tab-list a{font-size:19px}.addon-section-box{display:none}.homesection2 .dining-sec{margin-bottom:60px}.homesection2 .dining-sec:nth-child(2n) .dine-secinner{right:0;padding-left:35px}.homesection2 .dining-sec:nth-child(2n) .dine-rightimg{float:left}
+.flex-container a:active,.flexslider a:active,.flex-container a:focus,.flexslider a:focus{outline:none}.slides,.flex-control-nav,.flex-direction-nav{margin:0;padding:0;list-style:none}@font-face{font-family:'flexslider-icon';src:url('https://www.safirestaurant.com/dynamic/css/fonts/flexslider-icon.eot');src:url('https://www.safirestaurant.com/dynamic/css/fonts/flexslider-icon.eot?') format('embedded-opentype'),url('https://www.safirestaurant.com/dynamic/css/fonts/flexslider-icon.woff') format('woff'),url('https://www.safirestaurant.com/dynamic/css/fonts/flexslider-icon.ttf') format('truetype'),url('https://www.safirestaurant.com/dynamic/css/fonts/flexslider-icon.svg') format('svg');font-weight:normal;font-style:normal}.flexslider{margin:0;padding:0}.flexslider .slides>li{display:none;-webkit-backface-visibility:hidden}.flexslider .slides img{width:100%;display:block;height:auto}.flex-pauseplay span{text-transform:capitalize}.slides:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}html[xmlns] .slides{display:block}* html .slides{height:1%}.no-js .slides>li:first-child{display:block}.flexslider{width:100%;margin:0;padding:0}.flexslider .slides>li{display:none}.flexslider .slides img{width:100%;display:block;border:0 #ededed solid}.flex-pauseplay span{text-transform:capitalize}.slides:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}html[xmlns] .slides{display:block}* html .slides{height:1%}.no-js .slides>li:first-child{display:block}.flexslider .slides>li{position:relative}.flex-direction-nav li a{width:45px;height:42px;margin:0;display:block;position:absolute;right:11px;cursor:pointer;text-indent:-9999px}.flex-control-nav{bottom:6px;left:20px;position:absolute;text-align:center}.flex-control-nav li a{cursor:pointer;display:block;height:24px;text-indent:-9999px;width:24px}.flex-control-nav li a:hover{}.flex-control-nav li a.active{cursor:default}
+.bx-wrapper{position:relative;margin:0 auto 0;padding:0}.spbxslider{margin:0}.bx-wrapper img{display:block}.bx-wrapper .bx-pager,.bx-wrapper .bx-controls-auto{position:relative;top:0;width:100%}.bx-wrapper .bx-loading{min-height:50px;height:100%;width:100%;position:absolute;top:0;left:0;z-index:2000}.bx-wrapper .bx-pager{text-align:center;font-size:.85em;font-family:Arial;font-weight:bold;color:#666;padding-top:0}.bx-wrapper .bx-pager .bx-pager-item,.bx-wrapper .bx-controls-auto .bx-controls-auto-item{display:inline-block}.bx-wrapper .bx-pager.bx-default-pager a{background-color:#1e1e1e;display:block;height:5px;margin:0 10px 0 0;outline:0 none;text-indent:-9999px;border-radius:6px;width:10px}.bx-wrapper .bx-pager.bx-default-pager a:hover,.bx-wrapper .bx-pager.bx-default-pager a:focus,.bx-wrapper .bx-pager.bx-default-pager a.active{background:#fff}.bx-wrapper .bx-prev{background-image:url("https://www.safirestaurant.com/images_noindex/sprite.png");background-position:14px -234px;background-repeat:no-repeat;left:0}.bx-wrapper .bx-next{background-image:url("https://www.safirestaurant.com/images_noindex/sprite.png");background-position:-19px -234px;background-repeat:no-repeat;right:0}.bx-wrapper .bx-prev:hover{opacity:.9}.bx-wrapper .bx-next:hover{opacity:.9}.bx-wrapper .bx-controls-direction a{height:24px;margin-top:0;outline:0 none;position:absolute;text-indent:-9999px;top:156px;width:25px;z-index:9999}.bx-wrapper .bx-controls-direction a.disabled{display:none}.bx-wrapper .bx-controls-auto{text-align:center}.bx-wrapper .bx-controls-auto .bx-start{display:block;text-indent:-9999px;width:10px;height:11px;outline:0;margin:0 3px}.bx-wrapper .bx-controls-auto .bx-start:hover,.bx-wrapper .bx-controls-auto .bx-start.active{background-position:-86px 0}.bx-wrapper .bx-controls-auto .bx-stop{display:block;text-indent:-9999px;width:9px;height:11px;outline:0;margin:0 3px}.bx-wrapper .bx-controls-auto .bx-stop:hover,.bx-wrapper .bx-controls-auto .bx-stop.active{background-position:-86px -33px}.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{text-align:left;width:80%}.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto{right:0;width:35px}
+#floatingbooknow{background-color:#9c6936;width:120px}a.button:link,a.button:visited,.disablelink,a.ugcbtnwrite,#goog-wm-sb,.enablelink,#floatingbooknow,#backtotop,.button,button,#gdprsubmit{background:#9c6936;color:#ffffff;cursor:pointer;display:block;font-size:15px;padding:0 20px;line-height:50px;height:50px;letter-spacing:0;text-align:center;box-sizing:border-box;border:0}#gdprsubmit{display:inline-block}a.button:hover,.disablelink:hover,a.ugcbtnwrite:hover,#goog-wm-sb:hover,.enablelink:hover,.pkg-all a:hover,#floatingbooknow:hover,#backtotop:hover,.button:hover,#gdprsubmit:hover{background:#595959}#backtotop{bottom:10px;display:none;font-size:21px;height:38px;line-height:40px;position:fixed;right:11px;padding:0;width:38px;z-index:18}#backtotop span{line-height:37px}.commentinput .button{height:32px!important;line-height:32px!important}a.button.disablelink:link,a.button.enablelink:link,.pkg-all a,.ugcbtnwrite.button:link,.ugcbtnwrite.button:visited{float:left;height:40px;line-height:40px;width:110px}.enablelink.button{margin-right:7px}a.mapvisit{float:left;font-size:12px!important;margin-right:10px}a.mapdirection{float:left;font-size:12px!important}
+#googlemap, .gm-err-content, .loactionmap-box, .gm-err-container {
+	background: #fff url(https://www.safirestaurant.com/images_noindex/mapbg.jpg) no-repeat center center;
+	background-size: cover
+}
+a:link, a:visited {
+	outline: 0;
+}
+input:focus, textarea:focus {
+	outline: 1px dotted #000;
+}
+
+a.button, .button, .social-media ul li a:focus, .social-media ul li a:hover, a.button1, .view-full a:focus {
+	text-decoration: none;
+}
+a.skip-to-content-btn {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #9c6936;
+	color: #fff;
+	z-index: 10000;
+	height: 30px;
+	width: auto;
+	line-height: 30px;
+	padding: 0px 10px;
+	opacity: 0;
+}
+a.skip-to-content-btn:focus {
+	background: #9c6936;
+	color: #fff;
+	opacity: 1;
+}
+#backtotop {
+	text-decoration: none;
+}
+.input-error {
+	border:1px solid #aa4444 !important;
+}
+.error-message {
+	position: absolute;
+	width: 100%;
+	bottom: -10px;
+	color: #9c6936;
+	left: 0;
+}
+a.button:focus, #goog-wm-sb:focus, .viewlargermap:focus, .pkg-all a:focus, #backtotop:focus, button.button:focus {
+	background: #595959;
+	color: #fff;
+}
+#mainimage .flex-control-paging li a:hover ,  #mainimage .flex-control-paging li a.focus{
+    background: #fff;
+}
+.ada-datepicker {
+	position: relative;
+}
+.ui-datepicker-trigger {
+	background: none;
+	border: 0;
+	position: absolute;
+	right: 2px;
+	top: -6px;
+	padding: 11px;
+	box-sizing: border-box;
+	height: 50px;
+}
+#mainimage .flex-control-paging li a {
+  color: #fff; 
+}
+#mainimage .flex-control-paging li a.flex-active{
+  color: #000;
+}
+/* Magnific Popup CSS */
+.mfp-bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1042;
+  overflow: hidden;
+  position: fixed;
+  background: #0b0b0b;
+  opacity: 0.97; }
+
+.mfp-wrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1043;
+  position: fixed;
+  outline: none !important;
+  -webkit-backface-visibility: hidden; }
+
+.mfp-container {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 0 8px;
+  box-sizing: border-box; }
+
+.mfp-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
+
+.mfp-align-top .mfp-container:before {
+  display: none; }
+
+.mfp-content {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 1045; 
+  width:768px;
+  max-width:100%;
+}
+
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
+  width:768px;
+  max-width:100%;
+  cursor: auto; }
+
+.mfp-ajax-cur {
+  cursor: progress; }
+
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: -moz-zoom-out;
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out; }
+
+.mfp-zoom {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
+.mfp-auto-cursor .mfp-content {
+  cursor: auto; }
+
+.mfp-close,
+.mfp-arrow,
+.mfp-preloader,
+.mfp-counter {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
+
+.mfp-loading.mfp-figure {
+  display: none; }
+
+.mfp-hide {
+  display: none !important; }
+
+.mfp-preloader {
+  color: #CCC;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  margin-top: -0.8em;
+  left: 8px;
+  right: 8px;
+  z-index: 1044; }
+.mfp-preloader a {
+  color: #CCC; }
+.mfp-preloader a:hover {
+  color: #FFF; }
+
+.mfp-s-ready .mfp-preloader {
+  display: none; }
+
+.mfp-s-error .mfp-content {
+  display: none; }
+
+button.mfp-close,
+button.mfp-arrow {
+  overflow: visible;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  display: block;
+  outline: none;
+  padding: 0;
+  z-index: 1046;
+  box-shadow: none;
+  touch-action: manipulation; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+.mfp-close {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0.65;
+  padding: 0 0 18px 10px;
+  color: #FFF;
+  font-style: normal;
+  font-size: 28px;
+  font-family: Arial, Baskerville, monospace; }
+.mfp-close:hover,
+.mfp-close:focus {
+  opacity: 1; }
+.mfp-close:active {
+  top: 1px; }
+
+.mfp-close-btn-in .mfp-close {
+  color: #fff; }
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+  color: #FFF;
+  right: 0;
+  text-align: right;
+  padding-right: 9px;
+  width: 36px; }
+
+.mfp-counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #CCC;
+  font-size: 12px;
+  line-height: 18px;
+  white-space: nowrap; }
+
+.mfp-arrow {
+  position: absolute;
+  opacity: 0.65;
+  margin: 0;
+  top: 50%;
+  margin-top: -55px;
+  padding: 0;
+  width: 90px;
+  height: 110px;
+  -webkit-tap-highlight-color: transparent; }
+.mfp-arrow:active {
+  margin-top: -54px; }
+.mfp-arrow:hover,
+.mfp-arrow:focus {
+  opacity: 1; }
+.mfp-arrow:before,
+.mfp-arrow:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 35px;
+  margin-left: 35px;
+  border: medium inset transparent; }
+.mfp-arrow:after {
+  border-top-width: 13px;
+  border-bottom-width: 13px;
+  top: 8px; }
+.mfp-arrow:before {
+  border-top-width: 21px;
+  border-bottom-width: 21px;
+  opacity: 0.7; }
+
+.mfp-arrow-left {
+  left: 0; }
+.mfp-arrow-left:after {
+  border-right: 17px solid #FFF;
+  margin-left: 31px; }
+.mfp-arrow-left:before {
+  margin-left: 25px;
+  border-right: 27px solid #3F3F3F; }
+
+.mfp-arrow-right {
+  right: 0; }
+.mfp-arrow-right:after {
+  border-left: 17px solid #FFF;
+  margin-left: 39px; }
+.mfp-arrow-right:before {
+  border-left: 27px solid #3F3F3F; }
+
+.mfp-iframe-holder {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+.mfp-iframe-holder .mfp-content {
+  line-height: 0;
+  width: 100%;
+  max-width: 900px; }
+.mfp-iframe-holder .mfp-close {
+  top: -40px; }
+
+.mfp-iframe-scaler {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-top: 56.25%; }
+.mfp-iframe-scaler iframe {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;    
+  background: #fff; }
+
+/* Main image in popup */
+img.mfp-img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 40px 0 40px;
+  margin: 0 auto; }
+
+/* The shadow behind the image */
+.mfp-figure {
+  line-height: 0; }
+.mfp-figure:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 40px;
+  bottom: 40px;
+  display: block;
+  right: 0;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  background: #444; }
+.mfp-figure small {
+  color: #BDBDBD;
+  display: block;
+  font-size: 12px;
+  line-height: 14px; }
+.mfp-figure figure {
+  margin: 0; }
+
+.mfp-bottom-bar {
+  margin-top: -36px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  cursor: auto; }
+
+.mfp-title {
+  text-align: left;
+  line-height: 18px;
+  color: #F3F3F3;
+  word-wrap: break-word;
+  padding-right: 36px; }
+
+.mfp-image-holder .mfp-content {
+  max-width: 100%;width:auto; }
+
+.mfp-gallery .mfp-image-holder .mfp-figure {
+  cursor: pointer; }
+
+@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+  /**
+  * Remove all paddings around the image on small screen
+  */
+  .mfp-img-mobile .mfp-image-holder {
+    padding-left: 0;
+    padding-right: 0; }
+  .mfp-img-mobile img.mfp-img {
+    padding: 0; }
+  .mfp-img-mobile .mfp-figure:after {
+    top: 0;
+    bottom: 0; }
+  .mfp-img-mobile .mfp-figure small {
+    display: inline;
+    margin-left: 5px; }
+  .mfp-img-mobile .mfp-bottom-bar {
+    background: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    margin: 0;
+    top: auto;
+    padding: 3px 5px;
+    position: fixed;
+    box-sizing: border-box; }
+  .mfp-img-mobile .mfp-bottom-bar:empty {
+    padding: 0; }
+  .mfp-img-mobile .mfp-counter {
+    right: 5px;
+    top: 3px; }
+  .mfp-img-mobile .mfp-close {
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    text-align: center;
+    padding: 0; } }
+
+@media all and (max-width: 900px) {
+  .mfp-arrow {
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75); }
+  .mfp-arrow-left {
+    -webkit-transform-origin: 0;
+    transform-origin: 0; }
+  .mfp-arrow-right {
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%; }
+  .mfp-container {
+    padding-left: 6px;
+    padding-right: 6px; } }
+
+/*header, #wrapper {
+width: 100%;
+min-width: 100% !important;
+overflow-x: hidden;
+}*/
+
+.box-inner-content a {
+  padding:0 !important;
+}
+.mfp-iframe-holder .mfp-content {
+	height: 641px;
+}
+a:hover,a.button:hover,a.button,button,button:hover{transition:all .5s;-webkit-transition:all .5s;-moz-transition:all .5s;-ms-transition:all .5s;-o-transition:all .5s}#photogallery-thumbs li{position:relative;overflow:hidden}#photogallery-thumbs li a::after{color:#ffffff;font-size:25px;content:"";height:auto;left:50%;position:absolute;text-align:center;top:150%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);width:100%;z-index:2;transition:.3s all ease-in-out}#photogallery-thumbs li a::before{background-color:#9c6936;opacity:.75;content:" ";height:100%;transition:.3s all ease-in-out;left:0;position:absolute;top:100%;width:100%}#photogallery-thumbs li a:hover::before,#photogallery-thumbs li a:focus::before{top:0}#photogallery-thumbs li a:hover::after,#photogallery-thumbs li a:focus::after{top:50%}@media only screen and (max-width:1550px){.homesection4::before{width:200px;height:180px;background-size:100%;top:-230px}.homesection2::before{width:200px;height:100%;top:-230px;background-size:100%}}@media only screen and (min-width:1024px)and (max-width:1170px){.con-email{padding-top:10px}.contact-phone-right .iconbox,.contact-phone-right a{font-size:18px}nav.top-navigation ul li{padding:0 7px}.menu-sec{right:200px}.logo{left:-15px}.logo img{width:85%;margin:0;display:block;height:auto}.homesection2::before{width:236px;height:200px;background-size:100%}.dine-rightimg{width:66%}.dine-secinner{top:50px;margin-left:50px}.bottommiddle::before{top:400px}.bottommiddle::before{background-size:100%}.homesection4::before{width:150px;height:162px;top:-150px;background-size:100%}.dine-main-sec2 .dine-secinner{right:30px;padding:53px 0 53px 49px}.brandlogos img{width:100%;height:auto;display:block}.inner-bg::before{width:270px;height:215px;background-size:100%}.sub-footer-sec .form-input.send-copysec{margin-top:20px}.left-aboutus-img{width:30%}.left-aboutus-img img{width:100%;height:auto;display:block}.contact-hoteladd{padding:234px 80px 60px}.contact-phone-right{padding-left:2%;vertical-align:baseline}.contact-info-left{width:40%}.specialpkg-content-right{padding:30px 50px 50px 110px}.special-snippet:nth-child(2n) .specialpkg-content-right{padding:50px 110px 50px 30px}}
+#cke_editor1{width:auto}.cke_skin_kama .cke_wrapper{background-color:transparent;background-image:none;padding:0;margin:0}.cke_show_borders #fact-box{margin-top:0}body.cke_show_borders{background:none!important}body.cke_show_borders a{text-decoration:none!important;list-style:none}.cke_skin_kama .cke_wrapper{}#cke_editor1{border:1px dashed!important;padding-left:2px;padding-right:2px}#cke_top_editor1,#cke_bottom_editor1{background-color:#fcfcfc}.cke_skin_kama .cke_wrapper{}.welcome-msg.cms6 #ms_cms_btneditcarouselcontent{display:none!important}.dining-sec.cms6 #ms_cms_btneditcarouselcontent{display:none!important}.insta-sec.cms6 #ms_cms_btneditcarouselcontent{display:none!important}.about-us-sec.cms6 #ms_cms_btneditcarouselcontent{display:none!important}
+/*cache version*/
