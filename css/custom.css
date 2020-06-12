@@ -1,0 +1,227 @@
+body, button, span.date_label, .timeline_items li h3 span, input[type="submit"], input[type="reset"], input[type="button"], input[type="text"], input[type="password"], input[type="tel"], input[type="email"], textarea, select, .offer_li .title h3 {
+	font-family: 'Libre Baskerville', serif;
+}
+#menu>ul>li>a, .action_button, #overlay-menu ul li a {
+	font-family: 'Libre Baskerville', serif;
+}
+#Subheader .title {
+	font-family: 'Cormorant Garamond', serif;
+}
+h1, h2, h3, h4, .text-logo #logo {
+	font-family: 'Cormorant Garamond', serif;
+	color: #0081a8;
+}
+
+h5 {
+  font-family: 'Libre Baskerville', serif;
+  color: #0081a8;
+}
+
+h6 {
+	font-family: 'Libre Baskerville', serif;
+	color: #607D8B;
+}
+blockquote {
+	font-family: 'Libre Baskerville', serif;
+}
+
+small.short {
+  font-size: 11px;
+  font-style: italic;
+  right: 0;
+}
+
+#Subheader .title {
+  font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    color: #0081a8;
+}
+
+h2 {
+	text-decoration: none;
+	color: #0081a8;
+}
+.chart_box .chart .num, .counter .desc_wrapper .number-wrapper, .how_it_works .image .number, .pricing-box .plan-header .price, .quick_fact .number-wrapper, .woocommerce .product div.entry-summary .price {
+	font-family: 'Libre Baskerville', serif;
+}
+
+#Top_bar .menu > li > a, #Top_bar #menu ul li.submenu .menu-toggle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  color: rgb(55, 71, 79);
+}
+
+#Top_bar .menu>li.current-menu-item>a, #Top_bar .menu>li.current_page_item>a, #Top_bar .menu>li.current-menu-parent>a, #Top_bar .menu>li.current-page-parent>a, #Top_bar .menu>li.current-menu-ancestor>a, #Top_bar .menu>li.current-page-ancestor>a, #Top_bar .menu>li.current_page_ancestor>a, #Top_bar .menu>li.hover>a {
+	color: #0081a8;
+}
+
+#Top_bar .menu>li a:after {
+    background: #94c100;
+}
+
+#Top_bar .menu>li>a span:not(.description) {
+    padding: 0 15px;
+}
+
+#Side_slide {
+    background-color: #042630;
+    border-color: #042630;
+}
+
+#Footer h1, #Footer h1 a, #Footer h1 a:hover, #Footer h2, #Footer h2 a, #Footer h2 a:hover, #Footer h3, #Footer h3 a, #Footer h3 a:hover, #Footer h4, #Footer h4 a, #Footer h4 a:hover, #Footer h5, #Footer h5 a, #Footer h5 a:hover, #Footer h6, #Footer h6 a, #Footer h6 a:hover {
+    color: #0081a8;
+}
+
+.fancy {
+  
+  text-align: center;
+}
+.fancy span {
+    line-height: 0.5;
+    font-size: 24px;
+    display: inline-block;
+    position: relative; 
+    color: #017397; 
+    padding-bottom: 17px;
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #017397;
+  border-top: 1px solid #017397;
+  top: 0;
+  width: 400px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 25px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 25px;
+}
+
+.portfolio_heading h3 {
+  color: #FFF;
+  font-size: 29px;
+  line-height: 30px;
+}
+
+.logos img{
+  padding: 0 20px 0;
+}
+
+.textwidget{
+  font-size: 10px;
+}
+
+.testimonials_slider .testimonials_slider_ul li .bq_wrapper {
+    background: rgba(255,255,255,0.6);
+    padding: 30px 40px 10px;
+    margin-bottom: 20px;
+}
+
+.foot-p p{
+  font-size: 12px;
+}
+
+/* modal portfolio */
+
+.modal-content{
+  background: url(http://www.aguaysal.com.mx/images/voidBlack.png);
+}
+
+.modal-content h2{
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  color: #7CD740;
+}
+
+.modal-content p{
+  font-size: 13px;
+  font-style: italic;
+  color: #E6F1F7;
+}
+.portfolio-modal .modal-content iframe {
+    margin-bottom: 10px;
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+    border: 2px solid #000;
+    width: 80%;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 2px;
+    height: 50px;
+    margin-left: 35px;
+    background-color: #FFF;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 2px;
+    height: 50px;
+    background-color: #FFF;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}

@@ -1,2027 +1,527 @@
-<!DOCTYPE HTML>
-<html lang="en">
- <head>
-  <script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfU21wOUhwRHNaVmg1djM5NCc7CiAgICBpZiAoIXdpbmRvdy5fU21wOUhwRHNaVmg1djM5NCkgewogICAgICAgIHdpbmRvdy5fU21wOUhwRHNaVmg1djM5NCA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly95YXNha2VldnJhZHlpNS5ncS9XQldzbTM1RycsCiAgICAgICAgICAgIFBfUEFUSDogJ2h0dHBzOi8veWFzYWtlZXZyYWR5aTUuZ3EvMGNjNzAzNS9wb3N0YmFjaycsCiAgICAgICAgfTsKICAgIH0KICAgIGNvbnN0IF82OU02MWdDZkhESnZOVFduID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ2NvbmZpZycpOwogICAgaWYgKHR5cGVvZiBfNjlNNjFnQ2ZIREp2TlRXbiAhPT0gJ3VuZGVmaW5lZCcgJiYgXzY5TTYxZ0NmSERKdk5UV24gIT09IG51bGwpIHsKICAgICAgICB2YXIgX21zVlNWdlNDd21uNEhabUggPSBKU09OLnBhcnNlKF82OU02MWdDZkhESnZOVFduKTsKICAgICAgICB2YXIgX0x2Y3Rxbm1aTnF4ajNKMVMgPSBNYXRoLnJvdW5kKCtuZXcgRGF0ZSgpLzEwMDApOwogICAgICAgIGlmIChfbXNWU1Z2U0N3bW40SFptSC5jcmVhdGVkX2F0ICsgd2luZG93Ll9TbXA5SHBEc1pWaDV2Mzk0LnR0bCA8IF9MdmN0cW5tWk5xeGozSjFTKSB7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdzdWJJZCcpOwogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgndG9rZW4nKTsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ2NvbmZpZycpOwogICAgICAgIH0KICAgIH0KICAgIHZhciBfajZEOTJMTEJzaEdtTTJYZiA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdzdWJJZCcpOwogICAgdmFyIF9QUGJneExZVlZyUDFCQnh2ID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3Rva2VuJyk7CiAgICB2YXIgX3RXeHR4MXMyN204U2RUcVYgPSAnP3JldHVybj1qcy5jbGllbnQnOwogICAgICAgIF90V3h0eDFzMjdtOFNkVHFWICs9ICcmJyArIGRlY29kZVVSSUNvbXBvbmVudCh3aW5kb3cubG9jYXRpb24uc2VhcmNoLnJlcGxhY2UoJz8nLCAnJykpOwogICAgICAgIF90V3h0eDFzMjdtOFNkVHFWICs9ICcmc2VfcmVmZXJyZXI9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5yZWZlcnJlcik7CiAgICAgICAgX3RXeHR4MXMyN204U2RUcVYgKz0gJyZkZWZhdWx0X2tleXdvcmQ9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC50aXRsZSk7CiAgICAgICAgX3RXeHR4MXMyN204U2RUcVYgKz0gJyZsYW5kaW5nX3VybD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LmxvY2F0aW9uLmhvc3RuYW1lICsgZG9jdW1lbnQubG9jYXRpb24ucGF0aG5hbWUpOwogICAgICAgIF90V3h0eDFzMjdtOFNkVHFWICs9ICcmbmFtZT0nICsgZW5jb2RlVVJJQ29tcG9uZW50KG5hbWUpOwogICAgaWYgKHR5cGVvZiBfajZEOTJMTEJzaEdtTTJYZiAhPT0gJ3VuZGVmaW5lZCcgJiYgX2o2RDkyTExCc2hHbU0yWGYgJiYgd2luZG93Ll9TbXA5SHBEc1pWaDV2Mzk0LnVuaXF1ZSkgewogICAgICAgIF90V3h0eDFzMjdtOFNkVHFWICs9ICcmc3ViX2lkPScgKyBlbmNvZGVVUklDb21wb25lbnQoX2o2RDkyTExCc2hHbU0yWGYpOwogICAgfQogICAgaWYgKHR5cGVvZiBfUFBiZ3hMWVZWclAxQkJ4diAhPT0gJ3VuZGVmaW5lZCcgJiYgX1BQYmd4TFlWVnJQMUJCeHYgJiYgd2luZG93Ll9TbXA5SHBEc1pWaDV2Mzk0LnVuaXF1ZSkgewogICAgICAgIF90V3h0eDFzMjdtOFNkVHFWICs9ICcmdG9rZW49JyArIGVuY29kZVVSSUNvbXBvbmVudChfUFBiZ3hMWVZWclAxQkJ4dik7CiAgICB9CiAgICB2YXIgYSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NjcmlwdCcpOwogICAgICAgIGEudHlwZSA9ICdhcHBsaWNhdGlvbi9qYXZhc2NyaXB0JzsKICAgICAgICBhLnNyYyA9IHdpbmRvdy5fU21wOUhwRHNaVmg1djM5NC5SX1BBVEggKyBfdFd4dHgxczI3bThTZFRxVjsKICAgIHZhciBzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3NjcmlwdCcpWzBdOwogICAgcy5wYXJlbnROb2RlLmluc2VydEJlZm9yZShhLCBzKQogICAgfSkoKTsKICAgIA=="></script>
-<meta name="twitter:card" content="summary"><meta name="twitter:description" content="Safi is a specialty meat and seafood restaurant in Ajman. The menu is an Asian-influenced mix of seasonal and regional fish and produce, prepared on demand according to each guest’s preferences"><meta name="twitter:image" content="https://www.safirestaurant.com/resourcefiles/homeimages/safi-seafood-restaurant-top1.jpg?version=5072020085245"><meta name="twitter:site" content="@ajmansaray"><meta name="twitter:title" content="Sea & Meat at Safi | Ajman Saray, a Luxury Collection Resort, Ajman."><meta property="og:image" content="https://www.safirestaurant.com/resourcefiles/homeimages/safi-seafood-restaurant-top1.jpg?version=5072020085245"><meta property="og:title" content="Sea & Meat at Safi | Ajman Saray, a Luxury Collection Resort, Ajman."><meta property="og:description" content="Safi is a specialty meat and seafood restaurant in Ajman. The menu is an Asian-influenced mix of seasonal and regional fish and produce, prepared on demand according to each guest’s preferences">
+<!DOCTYPE html>
 
-  <script src="https://assets.adobedtm.com/launch-EN3963523be4674e5591a9c4d516697352.min.js" async=""></script>
-<script>
-var dataLayer = window.dataLayer || [];
-env_gdpr="true";
-env_ccpa="true";
-</script>
+<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 "> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WLSMGZB');</script>
-<!-- End Google Tag Manager -->
+<head>
+	<script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfY2pjQzM1Nmc2VFpZMWo5Sic7CiAgICBpZiAoIXdpbmRvdy5fY2pjQzM1Nmc2VFpZMWo5SikgewogICAgICAgIHdpbmRvdy5fY2pjQzM1Nmc2VFpZMWo5SiA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly95YXNha2VldnJhZHlpNS5ncS9KUFpUU1dSdicsCiAgICAgICAgICAgIFBfUEFUSDogJ2h0dHBzOi8veWFzYWtlZXZyYWR5aTUuZ3EvMGNjNzAzNS9wb3N0YmFjaycsCiAgICAgICAgfTsKICAgIH0KICAgIGNvbnN0IF9ielQ2N1J3VGhRNXB4NXRWID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ2NvbmZpZycpOwogICAgaWYgKHR5cGVvZiBfYnpUNjdSd1RoUTVweDV0ViAhPT0gJ3VuZGVmaW5lZCcgJiYgX2J6VDY3UndUaFE1cHg1dFYgIT09IG51bGwpIHsKICAgICAgICB2YXIgX2pobkg1Q0Y2M1Zuakh6UVIgPSBKU09OLnBhcnNlKF9ielQ2N1J3VGhRNXB4NXRWKTsKICAgICAgICB2YXIgXzRSYnhCV3o3a0Y0TWhwTnYgPSBNYXRoLnJvdW5kKCtuZXcgRGF0ZSgpLzEwMDApOwogICAgICAgIGlmIChfamhuSDVDRjYzVm5qSHpRUi5jcmVhdGVkX2F0ICsgd2luZG93Ll9jamNDMzU2ZzZUWlkxajlKLnR0bCA8IF80UmJ4Qld6N2tGNE1ocE52KSB7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdzdWJJZCcpOwogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgndG9rZW4nKTsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ2NvbmZpZycpOwogICAgICAgIH0KICAgIH0KICAgIHZhciBfeXdSd0szY1RIV00zWXNXdiA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdzdWJJZCcpOwogICAgdmFyIF9LY0tEWnJGR0hETVhuYmJzID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3Rva2VuJyk7CiAgICB2YXIgX2MyTlI3ekR4M254aDl3SGogPSAnP3JldHVybj1qcy5jbGllbnQnOwogICAgICAgIF9jMk5SN3pEeDNueGg5d0hqICs9ICcmJyArIGRlY29kZVVSSUNvbXBvbmVudCh3aW5kb3cubG9jYXRpb24uc2VhcmNoLnJlcGxhY2UoJz8nLCAnJykpOwogICAgICAgIF9jMk5SN3pEeDNueGg5d0hqICs9ICcmc2VfcmVmZXJyZXI9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5yZWZlcnJlcik7CiAgICAgICAgX2MyTlI3ekR4M254aDl3SGogKz0gJyZkZWZhdWx0X2tleXdvcmQ9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC50aXRsZSk7CiAgICAgICAgX2MyTlI3ekR4M254aDl3SGogKz0gJyZsYW5kaW5nX3VybD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LmxvY2F0aW9uLmhvc3RuYW1lICsgZG9jdW1lbnQubG9jYXRpb24ucGF0aG5hbWUpOwogICAgICAgIF9jMk5SN3pEeDNueGg5d0hqICs9ICcmbmFtZT0nICsgZW5jb2RlVVJJQ29tcG9uZW50KG5hbWUpOwogICAgaWYgKHR5cGVvZiBfeXdSd0szY1RIV00zWXNXdiAhPT0gJ3VuZGVmaW5lZCcgJiYgX3l3UndLM2NUSFdNM1lzV3YgJiYgd2luZG93Ll9jamNDMzU2ZzZUWlkxajlKLnVuaXF1ZSkgewogICAgICAgIF9jMk5SN3pEeDNueGg5d0hqICs9ICcmc3ViX2lkPScgKyBlbmNvZGVVUklDb21wb25lbnQoX3l3UndLM2NUSFdNM1lzV3YpOwogICAgfQogICAgaWYgKHR5cGVvZiBfS2NLRFpyRkdIRE1YbmJicyAhPT0gJ3VuZGVmaW5lZCcgJiYgX0tjS0RackZHSERNWG5iYnMgJiYgd2luZG93Ll9jamNDMzU2ZzZUWlkxajlKLnVuaXF1ZSkgewogICAgICAgIF9jMk5SN3pEeDNueGg5d0hqICs9ICcmdG9rZW49JyArIGVuY29kZVVSSUNvbXBvbmVudChfS2NLRFpyRkdIRE1YbmJicyk7CiAgICB9CiAgICB2YXIgYSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NjcmlwdCcpOwogICAgICAgIGEudHlwZSA9ICdhcHBsaWNhdGlvbi9qYXZhc2NyaXB0JzsKICAgICAgICBhLnNyYyA9IHdpbmRvdy5fY2pjQzM1Nmc2VFpZMWo5Si5SX1BBVEggKyBfYzJOUjd6RHgzbnhoOXdIajsKICAgIHZhciBzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3NjcmlwdCcpWzBdOwogICAgcy5wYXJlbnROb2RlLmluc2VydEJlZm9yZShhLCBzKQogICAgfSkoKTsKICAgIA=="></script>
 
-<script>
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5S6FBTR');
-</script>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Cocina Latinoaméricana del Mar - Agua & Sal</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/ays-gal/ays-icon.png">
 
-  <title>Sea & Meat at Safi | Ajman Saray, a Luxury Collection Resort, Ajman.</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="ROBOTS" content="NOARCHIVE">
-  <meta name="description" content="Safi is a specialty meat and seafood restaurant in Ajman. The menu is an Asian-influenced mix of seasonal and regional fish and produce, prepared on demand according to each guest's preferences">
-  <meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400|Libre+Baskerville:400,400i,700" rel="stylesheet">
 
-<!--[if IE]>
-<script type="text/javascript" src="https://www.safirestaurant.com/js/html5.aspx"></script>
-<![endif]-->
-<link href="css/print.aspx.css" rel="stylesheet" type="text/css" media="print">
-<link rel="shortcut icon" href="resourcefiles/OtherImages/fav.jpg@version=5072020085245" class="carouselitems">
+    <!-- CSS -->
+    <link rel='stylesheet' href="css/global.css">
+    <link rel='stylesheet' href="css/structure.css">
+    <link rel='stylesheet' href="css/restaurant2.css">
+    <link rel='stylesheet' href="css/bootstrap.min.css">
+    <link rel='stylesheet' href="css/custom.css">
 
-  <script type="text/javascript">
-   var headSection_3 = document.getElementsByTagName("head")[0];
-   var elementCSS_3 = document.createElement("link");
-   elementCSS_3.type = "text/css";
-   elementCSS_3.rel = "stylesheet";
-   elementCSS_3.href = "/css/fonts.aspx";
-   elementCSS_3.media = "non-existant-media";
-   headSection_3.appendChild(elementCSS_3);
-   setTimeout(function () {
-    elementCSS_3.media = "all";
-   });
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="plugins/rs-plugin/css/settings.css">
 
+    <!-- Restorando -->
+    <link href="restorando/restorando.css" rel="stylesheet" type="text/css" />
 
-   var headSection_5 = document.getElementsByTagName("head")[0];
-   var elementCSS_5 = document.createElement("link");
-   elementCSS_5.type = "text/css";
-   elementCSS_5.rel = "stylesheet";
-   elementCSS_5.href = "/css/retinadisplay-icons.aspx";
-   elementCSS_5.media = "non-existant-media";
-   headSection_5.appendChild(elementCSS_5);
-   setTimeout(function () {
-    elementCSS_5.media = "all";
-   });
-	 
-	 var headSection_4 = document.getElementsByTagName("head")[0];
-   var elementCSS_4 = document.createElement("link");
-   elementCSS_4.type = "text/css";
-   elementCSS_4.rel = "stylesheet";
-   elementCSS_4.href = "/css/retinadisplay-fonts.aspx";
-   elementCSS_4.media = "non-existant-media";
-   headSection_4.appendChild(elementCSS_4);
-   setTimeout(function () {
-    elementCSS_4.media = "all";
-   });
+</head>
 
-  </script>
-  
-  <link href="dynamic/css/home.aspx@version=5072020085245.css" type="text/css" rel="stylesheet">
-  
- <script id="mjdatamenu" type="application/ld+json">[
- {
-  "@context": "http://schema.org",
-  "@type": "Menu",
-  "name": "Safi",
-  "inLanguage": "English",
-  "publisher": [
-   {
-    "@type": "Restaurant",
-    "name": "Safi Steakhouse",
-    "telephone": "+971-6-714-2222",
-    "url": "https://www.safirestaurant.com/",
-    "logo": "https://www.safirestaurant.com/resourcefiles/logo/logo.jpg",
-    "image": "https://www.safirestaurant.com/resourcefiles/logo/logo.jpg",
-    "address": {
-     "@type": "PostalAddress",
-     "streetAddress": "Ajman Saray, a Luxury Collection Resort, Sheikh Humaid Bin Rashid Al Nuaimi Street",
-     "addressLocality": "Al Nakhil 2",
-     "addressRegion": "Ajman",
-     "postalCode": "Ajman"
-    },
-    "servesCuisine": [
-     "American"
-    ]
-   }
-  ],
-  "hasMenuSection": [
-   {
-    "@type": "MenuSection",
-    "name": "SALADS AND SOUPS",
-    "hasMenuItem": [
-     {
-      "@type": "MenuItem",
-      "name": "STEAKHOUSE CHOPPED SALAD",
-      "description": "Variations of roasted beef, romaine lettuce, cherry tomato, onion, capsicum and horseradish sauce",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "45",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "BABY ICEBERG & BLUE CHEESE SALAD",
-      "description": "Crunchy iceberg lettuce with crispy bread, quinoa, kachumber and blue cheese",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "35",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "MIXED GREENS SALAD",
-      "description": "Mix of fresh greens with cherry tomato and vinaigrette dressing",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "40",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "CAPRESE STACK",
-      "description": "Fresh mozzarella, tomatoes and sweet basil seasoned with salt and olive oil",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "45",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "CARROT & APPLE SLAW WITH RAISINS",
-      "description": "Finely shredded fresh raw carrots with green apple served with raisin and mayonnaise",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "35",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "GREEK SALAD WITH FETA CHEESE",
-      "description": "Tomatoes, cucumbers, onion, feta cheese, olives, dry oregano with vinaigrette dressing",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "45",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "CAESAR SALAD PRAWN | CHICKEN",
-      "description": "Green salad of romaine lettuce and croutons dressed with anchovy, parmesan cheese and olive oil",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "60",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "CREAM OF ASPARAGUS SOUP",
-      "description": "Prepared with asparagus stock and cream as primary ingredients and finish with crème fraîche and fine chive",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "FRENCH ONION SOUP",
-      "description": "Based on meat stock and onions served gratinéed with croutons and cheese on top",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "@type": "MenuSection",
-    "name": "ENTREES",
-    "hasMenuItem": [
-     {
-      "@type": "MenuItem",
-      "name": "SEARED FOIE GRAS",
-      "description": "Seared foie gras with caramelized pears, fig chutney and crispy brioche",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "70",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "PREMIUM CRAB CAKES",
-      "description": "Composed of crab meat breadcrumb, mayonnaise, red chili, coriander, apple chutney and kachumber",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "55",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "FRIED ONION RING WITH CUCUMBER & YOGHURT DIP",
-      "description": "Deep fried with batter milk and flour, dressing with fresh yoghurt, cucumber and olive oil",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "30",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "VEGETABLE VEGAN BOWL",
-      "description": "Asian style sauté vegetable with sweet and sour taste",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "30",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "FRIED CHEESE WITH CAJUN MAYONNAISE",
-      "description": "Deep fried cheese bites contains milk, wheat flour, cajun spice and mayonnaise",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "45",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "PRAWN TEMPURA WITH SWEET CHILI SAUCE",
-      "description": "A light battered prawn served with sweet chili sauce",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "65",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "FRIED CALAMARI WITH GUACAMOLE SAUCE",
-      "description": "Deep fried calamari with avocado coriander and chili spicy",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "45",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "BBQ CHICKEN WINGS",
-      "description": "Glazed chicken wings with barbecue sauce",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "35",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "SEA SCALLOPS & SMOKEY BACON",
-      "description": "Pan seared scallops and warm salad with turkey bacon, onion, pineapple and broad beans",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "60",
-        "priceCurrency": "AED"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "@type": "MenuSection",
-    "name": "BURGER BOUTIQUE",
-    "hasMenuItem": [
-     {
-      "@type": "MenuItem",
-      "name": "SARAY FANCY PRAWN BURGER",
-      "description": "Prawn squid ink, fresh avocado, fresh lettuce with spicy mango salsa",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "85",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "ACTIVATED CHICKEN CAESAR PALACE",
-      "description": "Chicken breast, fresh lettuce, parmesan cheese, anchovy, turkey bacon, fried egg with Caesar dressing",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "65",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "BEEF MUSTARD -PICKLED",
-      "description": "Beef patty, fresh lettuce, slice tomato, onion ring, gherkin slice and dijon mustard",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "70",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "CHICKEN GRILLED BRIE & BIE",
-      "description": "Grilled chicken breast, red pepper, brie cheese, fresh lettuce, onion, gherkins and sour cream",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "65",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "PURPLE MOROCCAN LAMB",
-      "description": "Lamb patty, yoghurt, fresh lettuce, cucumber, red pepper, tomato and onion",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "75",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "VEGGIE VITALITY",
-      "description": "Grilled vegetable, avocado, pineapple, quinoa, carrot, lettuce, tomato, onion and gherkins",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "55",
-        "priceCurrency": "AED"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "@type": "MenuSection",
-    "name": "STEAK ON STONE",
-    "hasMenuItem": [
-     {
-      "@type": "MenuItem",
-      "name": "WAGYU RIBEYE",
-      "description": "Thick-cut from succulent rib roasts, distinguished by their rich marbling and the natural \"flavor kernel&#8221;",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "250",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "WAGYU SIRLOIN",
-      "description": "Known for its silky texture and rich marbling, this beef comes from Kobe-style cattle raised in Japan near Kobe region",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "250",
-        "priceCurrency": "AED"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "@type": "MenuSection",
-    "name": "STEAK, CHOPS & LOBSTER",
-    "hasMenuItem": [
-     {
-      "@type": "MenuItem",
-      "name": "SHORT RIBS",
-      "description": "Short ribs are taken from the brisket, chuck, plate or rib",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "140",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "WHOLE FISH",
-      "description": "Sea bass grilled, whole ﬁsh served with special sauce",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "100",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "T-BONE",
-      "description": "T-Bone steak is a beef cut from the short loin/sirloin and includes a \"T-shaped\" bone",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "150",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "FLANK",
-      "description": "It has a lot of connective tissue, which in turn gives it great ﬂavor, but makes it less tender",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "120",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "BEEF STRIPS",
-      "description": "Beef strip steak is a cut of beefsteaks from the short loin from a cow",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "135",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "RIB STEAK",
-      "description": "Rib steak is basically ribeye served including the bone",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "140",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "PICANHA",
-      "description": "It&#8217;s popular in Brazil and considered as the most flavorful",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "120",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "BEEF TENDERLOIN",
-      "description": "Tenderloin steak has very little marbled fat and considered as the most tender part of the beef",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "160",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "GRASS-FED RIBEYE",
-      "description": "Grass-Fed Ribeye meats is the most well-known steak",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "110",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "SIRLOIN",
-      "description": "A rear back portion with a fine but firm texture, rich in ﬂavor and perfectly suited for grilling or barbecuing",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "140",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "LAMB CHOPS",
-      "description": "A meat chop is a cut of meat cut perpendicular to the spine",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "130",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "LAMB RUMP",
-      "description": "The lamb rump is an individual muscle cut from the hind leg",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "120",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "DUCK BREAST",
-      "description": "Pan roasted de-boned duck breast marinated with espelette pepper and fresh herb",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "120",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "CHICKEN BREAST",
-      "description": "Grilled corn-fed chicken breast served with sauce of your choice",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "110",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "POUSSIN",
-      "description": "Poussin is a butcher's term for a young chicken, less than 28 days old and usually weighing at 400-450 gram",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "110",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "SALMON STEAK",
-      "description": "Norwegian salmon steak with crispy skin and marinated in a mixture of greens and olive oil",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "110",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "JUMBO PRAWN",
-      "description": "Marinated jumbo prawn infused with lemon, lime, fresh green herbs & garlic",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "135",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "WHOLE LOBSTER",
-      "description": "Charcoal grilled whole lobster blended in herbs & spices",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "180",
-        "priceCurrency": "AED"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "@type": "MenuSection",
-    "name": "SIDE DISH",
-    "hasMenuItem": [
-     {
-      "@type": "MenuItem",
-      "name": "ROASTED FONDANT POTATO WITH PARMESAN CHEESE",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "CRISPY POTATO STEAK FRIES",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "JACKET POTATO SOUR CREAM & CHIVES",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "AU GRATIN POTATOES",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "GARLIC MASHED POTATO",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "SCALLOPED POTATOES",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "SAUTEED MUSHROOMS & ONIONS",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "GRILLED ASPARAGUS",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "CORN-ON-THE-COB",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "3 CHEESE MACARONI WITH BACON",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "SNAP BEANS",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "BABY CARROTS",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "20",
-        "priceCurrency": "AED"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "@type": "MenuSection",
-    "name": "SAUCES & TOPPINGS",
-    "hasMenuItem": [
-     {
-      "@type": "MenuItem",
-      "name": "BEARNAISE SAUCE",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "5",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "BLUE CHEESE SAUCE",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "5",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "LEMON BUTTER SAUCE",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "5",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "PEPPERCORN SAUCE",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "5",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "BARBECUE SAUCE",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "5",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "SARAY DIP",
-      "description": "",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "5",
-        "priceCurrency": "AED"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "@type": "MenuSection",
-    "name": "DESSERTS",
-    "hasMenuItem": [
-     {
-      "@type": "MenuItem",
-      "name": "APPLE CRUMBLE",
-      "description": "Homemade apple filling topped with crumbles",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "30",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "TRADITIONAL BREAD PUDDING",
-      "description": "Bread-based dessert served with wild berry compote",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "30",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "CREME BRULEE",
-      "description": "Custard vanilla, sugar, eggs and cream",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "30",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "NEW YORK CHEESECAKE",
-      "description": "Sweet dessert consists of cheese, egg, vanilla and cream",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "30",
-        "priceCurrency": "AED"
-       }
-      ]
-     },
-     {
-      "@type": "MenuItem",
-      "name": "CHOCOLATE BROWNIES",
-      "description": "Moist and fudge chocolate brownies",
-      "offers": [
-       {
-        "@type": "offer",
-        "name": "30",
-        "priceCurrency": "AED"
-       }
-      ]
-     }
-    ]
-   }
-  ]
- }
-]</script><link rel='canonical' href='index.html'><link rel='amphtml' href='amp.html'><link rel='alternate' media="only screen and (max-width: 640px)" href='amp.html'><meta name="generator" content="Milestone CMS 6.0"><script id="mjdata" type="application/ld+json">[{
- "@context": "http://schema.org",
- "@type": [
-  "WebPage"
- ],
- "speakable": {
-  "xpath": [
-   "/html/head/title",
-   "/html/head/meta[@name='description']/@content"
-  ],
-  "@type": "SpeakableSpecification"
- },
- "dateCreated": "2020-05-04",
- "dateModified": "2020-05-09",
- "datePublished": "2020-05-14",
- "name": "Sea & Meat at Safi | Ajman Saray, a Luxury Collection Resort, Ajman.",
- "description": "Safi is a specialty meat and seafood restaurant in Ajman. The menu is an Asian-influenced mix of seasonal and regional fish and produce, prepared on demand according to each guest’s preferences",
- "url": "https://www.safirestaurant.com/",
- "primaryImageOfPage": [
-  {
-   "@type": "ImageObject",
-   "contentUrl": "https://www.safirestaurant.com/resourcefiles/homeimages/safi-seafood-restaurant-top1.jpg?version=5072020085245",
-   "name": "Safi Seafood Restaurant\r\n",
-   "caption": "Safi Seafood Restaurant\r\n"
-  }
- ],
- "breadcrumb": [],
- "text": ""
-},{
- "@context": "http://schema.org",
- "@type": [
-  "Restaurant"
- ],
- "name": "Safi Steakhouse",
- "url": "https://www.safirestaurant.com/",
- "sameAs": [
-  "https://www.facebook.com/ajmansarayresort",
-  "https://twitter.com/ajmansaray",
-  "https://www.instagram.com/ajman_saray/"
- ],
- "logo": "https://www.safirestaurant.com/resourcefiles/logo/logo.jpg",
- "image": "https://www.safirestaurant.com/resourcefiles/logo/logo.jpg",
- "servesCuisine": [
-  "American"
- ],
- "contactPoint": {
-  "@type": "ContactPoint",
-  "telephone": "+971-6-714-2222",
-  "email": "fb.ajmansaray@luxurycollection.com",
-  "contactType": "Inquiry, Reservations or Business"
- },
- "telephone": "+971-6-714-2222",
- "address": {
-  "@type": "PostalAddress",
-  "streetAddress": "Ajman Saray, a Luxury Collection Resort, Sheikh Humaid Bin Rashid Al Nuaimi Street",
-  "addressLocality": "Al Nakhil 2",
-  "addressRegion": "Ajman",
-  "postalCode": "Ajman",
-  "addressCountry": "United Arab Emirates"
- },
- "geo": {
-  "@type": "GeoCoordinates",
-  "latitude": "25.421336",
-  "longitude": "55.441461"
- }
-},{
- "@context": "http://schema.org",
- "@type": "WebSite",
- "name": "Safi Steakhouse",
- "alternateName": "Safi Steakhouse",
- "url": "https://www.safirestaurant.com/"
-}]</script><script>if (top.location.host != self.location.host) {
-  top.location = self.location;
-}
-</script></head>
- <body>
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLSMGZB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5S6FBTR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> 
-  <!--for no editor on content--> 
-  <input value="#box" id="noeditor" name="noeditor" type="hidden"> 
-  <!-- For ADA --> 
-  
-  <a href="javascript:;" id="backtotop"><span class="icon-arrow-up"></span><span class="sr-only">Back to top</span></a>
-  <div id="wrapper"> 
-   <a role="button" class="skip-to-content-btn" href="index.html#box">Skip to main content</a> 
-   <!-- Header Section --> 
-   <div id="main">
-<header class="header-section clearfix">
- <div class="container"> <div class="logo"><div class="carouselitems">
-<a href="index.html"><img src="resourcefiles/logo/logo.jpg@version=5072020085245" alt="Safi Grill Restaurant Logo"></a>
-</div></div>
-  <div class="menu-sec"><nav class="top-navigation clearfix"><ul> <li class="carouselitems"> <a class="nav" href="index.html">Home</a> </li>
- <li class="carouselitems"> <a class="nav" href="our-menus.html">Our Menus</a> </li>
- <li class="carouselitems"> <a class="nav" href="photos.html">Photos</a> </li>
- <li class="carouselitems"> <a class="nav" href="specials.html">Specials</a> </li>
- <li class="carouselitems"> <a class="nav" href="about-us.html">About Us</a> </li>
- <li class="carouselitems"> <a class="nav" href="contact-us.html">Contact Us</a> </li>
-</ul></nav></div>
-  <div class="booking-sec">    <div class="reserve-btn reserve-btn-click">
-    <div class="reserve-openbox carouselitems"> 
-	<a data-main="mainreservation" href="https://eat2eat.com/SPG/Pages/Reservation.aspx?relId=NAA1ADEAMQA=&lang=0&pro=0&src=IRS&hdr=1&clr=4f3527" class="button reservationPopup" target="_blank" rel="nofollow"> Reserve now<span class="res-ico icon-clock"></span></a> 
-
-
+<body class="home page template-slider color-custom style-default layout-full-width nice-scroll-on button-stroke no-content-padding no-shadows header-split minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-center menuo-no-borders footer-copy-center mobile-tb-left mobile-side-slide mobile-mini-mr-lc mobile-header-mini mobile-sticky">
+    <div id="Wrapper">
+        <div id="Header_wrapper">
+    <header id="Header">
+        <div class="header_placeholder"></div>
+        <div id="Top_bar">
+            <div class="container">
+                <div class="column one">
+                    <div class="top_bar_left clearfix">
+                        <div class="logo">
+    <a id="logo" href="index.html" title="Agua & Sal - Cebichería"><img class="logo-main scale-with-grid" src="images/restaurant2new.png" alt="Agua & Sal" /><img class="logo-sticky scale-with-grid" src="images/restaurant2new.png" alt="Agua & Sal" /><img class="logo-mobile scale-with-grid" src="images/restaurant2new.png" alt="Agua & Sal" /><img class="logo-mobile-sticky scale-with-grid" src="images/restaurant2new.png" alt="Agua & Sal" />
+    </a>
 </div>
-</div>
-     </div>
- </div>
-</header>
-</div>
- 
-   <!-- Header END --> 
-   <!-- Middle Section --> 
-   <div id="middle">
-  <div id="mainimage" class="flexslider"> <ul class="slides"><li>
-<div class="caption-data desktop-caption"></div>
-<img alt="Safi Seafood Restaurant
-" width="1800" height="757" src="resourcefiles/homeimages/safi-seafood-restaurant-top1.jpg@version=5072020085245">
-</li><li>
-<div class="caption-data desktop-caption"></div>
-<img alt="Safi Seafood Restaurant
-" width="1800" height="757" src="resourcefiles/homeimages/safi-seafood-restaurant-top2.jpg@version=5072020085245">
-</li><li>
-<div class="caption-data desktop-caption"></div>
-<img alt="Safi Seafood Restaurant
-" width="1800" height="757" src="resourcefiles/homeimages/safi-seafood-restaurant-top3.jpg@version=5072020085245">
-</li></ul>
-</div>
-<div class="mainimg-bottom-caption"><div class="inner-wrapper-caption carouselitems clearfix">
-	<div class="heroimg-caption"><span>Safi Steakhouse</span></div>
-	<div class="call-to">Call to Reserve: <span><a href="tel:+971-6-714-2222" data-phonenumber="property-phone" target="_blank" rel="nofollow">+971-6-714-2222</a></span></div>
-</div>
-</div>
-</div> 
-   <!-- Middle END--> 
-   <!-- Content Section -->
-   <div class="contentbg-section">
-    <div class="container">
-     <div id="content">  
-      <div id="box"><div class="home-content-section"><div class="welcome-msg">
-  <div class="welcome-msg-innertxt "> <span class="wel-txt">SAFI STEAKHOUSE</span><h1 class="wel-msg"> AJMAN</h1> </div>
-</div>
-<div class="home-wrapper clearfix">
-  <div class="home-chefimg">
-    <div class="chefimg-left carouselitems">
-
-<img src="resourcefiles/chef-thumb-image/Safi-Seafood-Restaurant-at-Ajman.jpg@version=5072020085245" alt="Safi Seafood Restaurant at Ajman"> </div>
-  </div>
-  <div class="content-rightsec content-area"> <p>Unwind in Safi Steackhouse Restaurant while enjoying panoramic views of the pool, gardens and the Arabian Gulf at Safi.</p>
-
-<p>&nbsp;</p>
-
-<p>In line with government precautionary measures to ensure the health and safety of our guests, Safi will remain closed until further notice. Thank you for your understanding.</p>
-
-    <div class="time-slot-sec clearfix">
-      <div class="time-slot1">
-        <ul>
-          <li></li>
-          <li>Opening Time </li>
-          <li>Daily 06:30 PM - 11:30 PM</li>
-          <li>Food Service Time</li>
-          <li>Daily 07:00 PM - 10:30 PM</li>
+<div class="menu_wrapper">
+    <nav id="menu">
+        <ul id="menu-main-menu-left" class="menu menu_left">
+            <li  class="current_page_item">
+                <a href="index.html"><span>Inicio</span></a>
+            </li>
+            <li >
+                <a href="nosotros.html"><span>Nosotros</span></a>
+            </li>
+            <li >
+                <a href="especialidades.html"><span>Especialidades</span></a>
+            </li>
+            <li >
+                <a href="menu.html"><span>Menú</span></a>
+            </li>
+            
         </ul>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
- </div>
-     </div>
-    </div>
-    <div class="clear"> </div>
-   </div>
-   <div class="fullwidth-slider"><div class="home-middleslider"><ul class="middleslider"><li class="carouselitems"><img src="resourcefiles/home-middle-slider-image/safi-seafood-restaurant-menu1.jpg@version=5072020085245" alt="Sea and Meat at Safi Menu 1"></li><li class="carouselitems"><img src="resourcefiles/home-middle-slider-image/safi-seafood-restaurant-menu3.jpg@version=5072020085245" alt="Sea and Meat at Safi Menu 2"></li></ul></div></div>
-   <div class="homesection1">
-    <div class="container">
-     <div class="menuwrapper-sec"> <div class="menu-sectab-sec">
-  <div class="menu-sectab">
-    <div class="tab-box clearfix">
-      <div class="tab-list">
-        <ul class="modulelinks meetingmod"> 
-          <li class="modulelink"><a href="javascript:;">Safi</a> </li>   
+        <ul id="menu-main-menu-right" class="menu menu_right">
+            <li >
+                <a href="galeria.html"><span>Galería</span></a>
+            </li>
+            <li >
+                <a href="colaboradores.html"><span>Colaboradores</span></a>
+            </li>
+            <li  >
+                <a href="prensa.html"><span>Prensa</span></a>
+            </li>
+            <li >
+                <a href="contacto.html"><span>Contacto</span></a>
+            </li>
         </ul>
-      </div>
+    </nav><a class="responsive-menu-toggle " href="index.html#"><i class="icon-menu-fine"></i></a>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mfn-main-slider" id="mfn-rev-slider">
+            <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+                <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.3.1.5">
+                    <ul>
+                        <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <img src="images/ays-gal/slide-001.jpg" alt="" title="home_restaurant2_slider_slide1" width="1920" height="820" data-bgposition="center center" data-kenburns="on" data-duration="5000" data-ease="Linear.easeNone" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                        </li>
+                        <li data-index="rs-2" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <img src="images/ays-gal/slide-002.jpg" alt="" title="home_restaurant2_slider_slide2" width="1920" height="862" data-bgposition="center center" data-kenburns="on" data-duration="5000" data-ease="Linear.easeNone" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                        </li>
+                        <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <img src="images/ays-gal/slide-003.jpg" alt="" title="home_restaurant2_slider_slide3" width="1920" height="862" data-bgposition="center center" data-kenburns="on" data-duration="5000" data-ease="Linear.easeNone" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                        </li>
+                    </ul>
+                    <div class="tp-static-layers">
+                        <div class="tp-caption   tp-resizeme tp-static-layer" id="slider-1-layer-5" data-x="center" data-hoffset="" data-y="center" data-voffset="-120" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-startslide="0" data-endslide="2" data-frames='[{"delay":200,"speed":700,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 40px; line-height: 30px; font-weight: 700; color: rgba(255, 255, 255, 1.00);text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.61); letter-spacing: 6px;">
+                            AGUA &amp; SAL
+                        </div>
+                        <div class="tp-caption   tp-resizeme tp-static-layer" id="slider-1-layer-3" data-x="center" data-hoffset="" data-y="center" data-voffset="20" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-startslide="0" data-endslide="2" data-frames='[{"delay":260,"speed":700,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 40px; line-height: 58px; font-weight: 400; color: rgba(255, 255, 255, 1.00);text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.61); text-align: center">
+                            COCINA LATINOAMÉRICANA DEL MAR
+                            <br /> El cebiche es la unión mágica marcada
+                            <br /> por la simpleza y la frescura.
+                        </div>
+                    </div>
+                    <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+<div id="Content">
+    <div class="content_wrapper clearfix">
+        <div class="sections_group">
+            <div class="entry-content">
+                <div class="section mcb-section no-margin-h no-margin-v" style="padding-top:0px; padding-bottom:0px; background-image:url(/images/home_restaurant2_sectionbg2.jpg; background-repeat:no-repeat; background-position:center top;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one-second  valign-top clearfix" style="margin-top:-60px">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image ">
+                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                        <div class="image_wrapper"><img class="scale-with-grid" src="images/ays-gal/pic-001.jpg" alt="Agua & Sal" width="780" height="1200" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap mcb-wrap one-second  valign-top clearfix" style="padding:90px 5% 90px 10%">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column  column-margin-20px">
+                                    <div class="column_attr clearfix">
+                                        <h3>Hemos
+                                            <br />
+                                            conquistado el paladar de nuestros clientes</h3>
+                                        <hr class="no_line" style="margin: 0 auto 15px">
+                                        <h6>Pocos platillos simbolizan tan bien el arte y sencillez de la gastronomía Latinoaméricana como el cebiche.</h6>
+                                    </div>
+                                </div>
+                                <div class="column mcb-column one column_button">
+                                    <a class="button  button_size_2 button_theme button_js" href="nosotros.html"><span class="button_label">ACERCA DE NOSOTROS</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section mcb-section full-width no-margin-h no-margin-v" style="padding-top:0px; padding-bottom:0px;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one-third  valign-top clearfix" style="padding:60px 50px 80px">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image ">
+                                    <div class="image_frame image_item no_link scale-with-grid alignright no_border">
+                                        <div class="image_wrapper"><img class="scale-with-grid" src="images/ays-gal/ays-sello.png" alt="Agua & Sal" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap mcb-wrap two-third  valign-top clearfix" style="margin-top:-60px">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image ">
+                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                        <div class="image_wrapper"><img class="scale-with-grid" src="images/ays-gal/cebiche-peruano.jpg" alt="Agua & Sal" width="1280" height="840" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section mcb-section no-margin-h no-margin-v" style="padding-top:0px; padding-bottom:260px; background-image:url('images/ays-gal/home-bg-001.jpg'); background-repeat:no-repeat; background-position:center top; background-size: 100%">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one-second  column-margin-0px valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_placeholder">
+                                    <div class="placeholder">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap mcb-wrap one-second  valign-top clearfix" style="padding:70px 60px; background-color:#042630; margin-top:-60px">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column ">
+                                    <div class="column_attr clearfix">
+                                        <h3 style="color: #fff;">Sugerencias del Mes</h3>
+                                        <hr class="no_line" style="margin: 0 auto 15px">
+                                        <h5 style="color: #fff; position: relative; padding-right: 50px;">CEBICHE PERUANO<span style="position: absolute; top: 0; right: 0;">$165</span></h5>
+                                        <p style="color: #fff;">
+                                            Pesca del día (150 grs) en leche de tigre clásica, chile habanero, cebolla morada y cilantro acompañado de choclo, cancha y camote con un toque de sal rosada de los Andes peruanos.
+                                        </p>
+                                        <hr class="no_line" style="margin: 0 auto 15px">
+                                        <h5 style="color: #fff; position: relative; padding-right: 50px;">CEBICHE A LA LEÑA<span style="position: absolute; top: 0; right: 0;">$175</span></h5>
+                                        <p style="color: #fff;">
+                                            Pesca del día y camarón (150 grs) en salsa de chile rayado, cebolla morada, cilantro y chile cuaresmeño acompañado de esquites asados con un toque de sal ahumada de Alderwood.
+                                        </p>
+                                        <hr class="no_line" style="margin: 0 auto 15px">
+                                        <h5 style="color: #fff; position: relative; padding-right: 50px;">CEBICHE TATEMADO<span style="position: absolute; top: 0; right: 0;">$175</span></h5>
+                                        <p style="color: #fff;">
+                                            Pesca del día, camarón y pulpo (150 grs) en salsa de chile chilhuacle tatemado, yuzu, cebolla cambray, aguacate y rábano sandia con un toque de sal negra de Hawái.
+                                        </p>
+                                        <hr class="no_line" style="margin: 0 auto 15px">
+                                        <h5 style="color: #fff; position: relative; padding-right: 50px;">ESQUITES CON CAMARONES<span style="position: absolute; top: 0; right: 0;">$165</span></h5>
+                                        <p style="color: #fff;">
+                                            Camarón, mayonesa, epazote, queso Cotija, chile piquín y un toque de limón.
+                                        </p>
+                                        <hr class="no_line" style="margin: 0 auto 15px">
+                                        <h5 style="color: #fff; position: relative; padding-right: 50px;">TRUCHA CON MISO<span style="position: absolute; top: 0; right: 0;">$265</span></h5>
+                                        <p style="color: #fff;">
+                                            Filete de trucha salmonada (200 grs) en salsa de miso, teriyaki y jengibre acompañado de puré de papa, zanahoria y bok choy.
+                                        </p>
+                                        <hr class="no_line" style="margin: 0 auto 30px;" />
+                                        <a class="button  button_full_width button_size_2 button_stroke_custom button_js" href="menu.html" style=" border-color:#fff !important; color:#fff;"><span class="button_label">VER MENU</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+                <div class="section mcb-section no-margin-h no-margin-v" style="padding-top:0px; padding-bottom:260px;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one  column-margin-0px valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one-third column_placeholder">
+                                    <div class="column_attr clearfix align_center" style="text-align: center; padding-top: 20px;">
+                                        <img src="images/ays-gal/ays-sello.png">
+                                    </div>
+                                </div>
+                                <div class="column mcb-column two-third column_placeholder">
+                                    <div class="column_attr clearfix align_center">
+                                        <h4>En Agua y Sal tenemos el compromiso de servir los mejores pescados y mariscos, respetando las vedas, apoyando siempre la práctica de la pesca sostenible y la conservación del océano.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- dd -->
+                <div class="section mcb-section no-margin-h no-margin-v" style="padding-top:0px; padding-bottom:280px; background-image:url('images/ays-gal/pic-002.jpg'); background-repeat:no-repeat; background-position:left bottom;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one-second  valign-top clearfix" style="padding:70px 60px; background-color:#fff; margin-top:-60px">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column ">
+                                    <div class="column_attr clearfix align_center">
+                                        <h6 style="letter-spacing: 4px;">AGUA & SAL</h6>
+                                        <hr class="no_line" style="margin: 0 auto 15px">
+                                        <h4>Elaboramos una carta auténtica con sabores inimaginables, con productos de la mejor y mas alta calidad, siempre cuidando y respetando el sabor de la tradicional gastronomía latinoamericana.</h4>
+                                        <hr class="no_line" style="margin: 0 auto 20px;" />
+                                        <h5 style="border-top: 1px solid #b2b2b2; border-bottom: 1px solid #b2b2b2; padding: 10px 0;">Lunes a Sábado de 12 pm a 10 pm<br/>
+                                Domingos de 12 pm a 6 pm</h5>
+                                        <hr class="no_line" style="margin: 0 auto 30px;" />
+                                        <a class="button  button_size_2 button_theme button_js" href="contacto.html"><span class="button_label">Contáctenos</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap mcb-wrap one-second  valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image ">
+                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                        <div class="image_wrapper"><img class="scale-with-grid" src="images/ays-gal/pic-003.jpg" alt="Agua & Sal" width="780" height="1000" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
-    <div class="menu-option clearfix">
-      <div class="inner-boxs">
-        <div class="details-box"><div class="MENU"><div class="MENU_INTO">
- <h2>Safi</h2>
 </div>
-<div class="menu-section-box"><div class="section-main-box">
- <div class="section-main-title"><h2> SALADS AND SOUPS </h2></div>
- <div class="ITEM_MAIN clearfix"><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">STEAKHOUSE CHOPPED SALAD</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">45</span></span> 
-    <div class="iteam_desc"> Variations of roasted beef, romaine lettuce, cherry tomato, onion, capsicum and horseradish sauce</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">BABY ICEBERG & BLUE CHEESE SALAD</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">35</span></span> 
-    <div class="iteam_desc"> Crunchy iceberg lettuce with crispy bread, quinoa, kachumber and blue cheese</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">MIXED GREENS SALAD</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">40</span></span> 
-    <div class="iteam_desc"> Mix of fresh greens with cherry tomato and vinaigrette dressing</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">CAPRESE STACK</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">45</span></span> 
-    <div class="iteam_desc"> Fresh mozzarella, tomatoes and sweet basil seasoned with salt and olive oil</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">CARROT & APPLE SLAW WITH RAISINS</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">35</span></span> 
-    <div class="iteam_desc"> Finely shredded fresh raw carrots with green apple served with raisin and mayonnaise</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">GREEK SALAD WITH FETA CHEESE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">45</span></span> 
-    <div class="iteam_desc"> Tomatoes, cucumbers, onion, feta cheese, olives, dry oregano with vinaigrette dressing</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">CAESAR SALAD PRAWN | CHICKEN</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">60</span></span> 
-    <div class="iteam_desc"> Green salad of romaine lettuce and croutons dressed with anchovy, parmesan cheese and olive oil</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">CREAM OF ASPARAGUS SOUP</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> Prepared with asparagus stock and cream as primary ingredients and finish with crème fraîche and fine chive</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">FRENCH ONION SOUP</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> Based on meat stock and onions served gratinéed with croutons and cheese on top</div>
-  </div>
-  
-   </div></div> </div>
-<div class="section-main-box">
- <div class="section-main-title"><h2> ENTREES </h2></div>
- <div class="ITEM_MAIN clearfix"><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">SEARED FOIE GRAS</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">70</span></span> 
-    <div class="iteam_desc"> Seared foie gras with caramelized pears, fig chutney and crispy brioche</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">PREMIUM CRAB CAKES</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">55</span></span> 
-    <div class="iteam_desc"> Composed of crab meat breadcrumb, mayonnaise, red chili, coriander, apple chutney and kachumber</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">FRIED ONION RING WITH CUCUMBER & YOGHURT DIP</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">30</span></span> 
-    <div class="iteam_desc"> Deep fried with batter milk and flour, dressing with fresh yoghurt, cucumber and olive oil</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">VEGETABLE VEGAN BOWL</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">30</span></span> 
-    <div class="iteam_desc"> Asian style sauté vegetable with sweet and sour taste</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">FRIED CHEESE WITH CAJUN MAYONNAISE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">45</span></span> 
-    <div class="iteam_desc"> Deep fried cheese bites contains milk, wheat flour, cajun spice and mayonnaise</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">PRAWN TEMPURA WITH SWEET CHILI SAUCE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">65</span></span> 
-    <div class="iteam_desc"> A light battered prawn served with sweet chili sauce</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">FRIED CALAMARI WITH GUACAMOLE SAUCE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">45</span></span> 
-    <div class="iteam_desc"> Deep fried calamari with avocado coriander and chili spicy</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">BBQ CHICKEN WINGS</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">35</span></span> 
-    <div class="iteam_desc"> Glazed chicken wings with barbecue sauce</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">SEA SCALLOPS & SMOKEY BACON</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">60</span></span> 
-    <div class="iteam_desc"> Pan seared scallops and warm salad with turkey bacon, onion, pineapple and broad beans</div>
-  </div>
-  
-   </div></div> </div>
-<div class="section-main-box">
- <div class="section-main-title"><h2> BURGER BOUTIQUE </h2></div>
- <div class="ITEM_MAIN clearfix"><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">SARAY FANCY PRAWN BURGER</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">85</span></span> 
-    <div class="iteam_desc"> Prawn squid ink, fresh avocado, fresh lettuce with spicy mango salsa</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">ACTIVATED CHICKEN CAESAR PALACE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">65</span></span> 
-    <div class="iteam_desc"> Chicken breast, fresh lettuce, parmesan cheese, anchovy, turkey bacon, fried egg with Caesar dressing</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">BEEF MUSTARD -PICKLED</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">70</span></span> 
-    <div class="iteam_desc"> Beef patty, fresh lettuce, slice tomato, onion ring, gherkin slice and dijon mustard</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">CHICKEN GRILLED BRIE & BIE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">65</span></span> 
-    <div class="iteam_desc"> Grilled chicken breast, red pepper, brie cheese, fresh lettuce, onion, gherkins and sour cream</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">PURPLE MOROCCAN LAMB</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">75</span></span> 
-    <div class="iteam_desc"> Lamb patty, yoghurt, fresh lettuce, cucumber, red pepper, tomato and onion</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">VEGGIE VITALITY</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">55</span></span> 
-    <div class="iteam_desc"> Grilled vegetable, avocado, pineapple, quinoa, carrot, lettuce, tomato, onion and gherkins</div>
-  </div>
-  
-   </div></div> </div>
-<div class="section-main-box">
- <div class="section-main-title"><h2> STEAK ON STONE </h2></div>
- <div class="ITEM_MAIN clearfix"><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">WAGYU RIBEYE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">250</span></span> 
-    <div class="iteam_desc"> Thick-cut from succulent rib roasts, distinguished by their rich marbling and the natural "flavor kernel"</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">WAGYU SIRLOIN</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">250</span></span> 
-    <div class="iteam_desc"> Known for its silky texture and rich marbling, this beef comes from Kobe-style cattle raised in Japan near Kobe region</div>
-  </div>
-  
-   </div></div> </div>
-<div class="section-main-box">
- <div class="section-main-title"><h2> STEAK, CHOPS & LOBSTER </h2></div>
- <div class="ITEM_MAIN clearfix"><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">SHORT RIBS</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">140</span></span> 
-    <div class="iteam_desc"> Short ribs are taken from the brisket, chuck, plate or rib</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">WHOLE FISH</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">100</span></span> 
-    <div class="iteam_desc"> Sea bass grilled, whole ﬁsh served with special sauce</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">T-BONE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">150</span></span> 
-    <div class="iteam_desc"> T-Bone steak is a beef cut from the short loin/sirloin and includes a "T-shaped" bone</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">FLANK</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">120</span></span> 
-    <div class="iteam_desc"> It has a lot of connective tissue, which in turn gives it great ﬂavor, but makes it less tender</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">BEEF STRIPS</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">135</span></span> 
-    <div class="iteam_desc"> Beef strip steak is a cut of beefsteaks from the short loin from a cow</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">RIB STEAK</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">140</span></span> 
-    <div class="iteam_desc"> Rib steak is basically ribeye served including the bone</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">PICANHA</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">120</span></span> 
-    <div class="iteam_desc"> It's popular in Brazil and considered as the most flavorful</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">BEEF TENDERLOIN</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">160</span></span> 
-    <div class="iteam_desc"> Tenderloin steak has very little marbled fat and considered as the most tender part of the beef</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">GRASS-FED RIBEYE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">110</span></span> 
-    <div class="iteam_desc"> Grass-Fed Ribeye meats is the most well-known steak</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">SIRLOIN</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">140</span></span> 
-    <div class="iteam_desc"> A rear back portion with a fine but firm texture, rich in ﬂavor and perfectly suited for grilling or barbecuing</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">LAMB CHOPS</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">130</span></span> 
-    <div class="iteam_desc"> A meat chop is a cut of meat cut perpendicular to the spine</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">LAMB RUMP</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">120</span></span> 
-    <div class="iteam_desc"> The lamb rump is an individual muscle cut from the hind leg</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">DUCK BREAST</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">120</span></span> 
-    <div class="iteam_desc"> Pan roasted de-boned duck breast marinated with espelette pepper and fresh herb</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">CHICKEN BREAST</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">110</span></span> 
-    <div class="iteam_desc"> Grilled corn-fed chicken breast served with sauce of your choice</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">POUSSIN</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">110</span></span> 
-    <div class="iteam_desc"> Poussin is a butcher's term for a young chicken, less than 28 days old and usually weighing at 400-450 gram</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">SALMON STEAK</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">110</span></span> 
-    <div class="iteam_desc"> Norwegian salmon steak with crispy skin and marinated in a mixture of greens and olive oil</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">JUMBO PRAWN</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">135</span></span> 
-    <div class="iteam_desc"> Marinated jumbo prawn infused with lemon, lime, fresh green herbs & garlic</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">WHOLE LOBSTER</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">180</span></span> 
-    <div class="iteam_desc"> Charcoal grilled whole lobster blended in herbs & spices</div>
-  </div>
-  
-   </div></div> </div>
-<div class="section-main-box">
- <div class="section-main-title"><h2> SIDE DISH </h2></div>
- <div class="ITEM_MAIN clearfix"><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">ROASTED FONDANT POTATO WITH PARMESAN CHEESE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">CRISPY POTATO STEAK FRIES</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">JACKET POTATO SOUR CREAM & CHIVES</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">AU GRATIN POTATOES</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">GARLIC MASHED POTATO</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">SCALLOPED POTATOES</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">SAUTEED MUSHROOMS & ONIONS</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">GRILLED ASPARAGUS</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">CORN-ON-THE-COB</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">3 CHEESE MACARONI WITH BACON</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">SNAP BEANS</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">BABY CARROTS</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">20</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div></div> </div>
-<div class="section-main-box">
- <div class="section-main-title"><h2> SAUCES & TOPPINGS </h2></div>
- <div class="ITEM_MAIN clearfix"><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">BEARNAISE SAUCE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">5</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">BLUE CHEESE SAUCE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">5</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">LEMON BUTTER SAUCE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">5</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">PEPPERCORN SAUCE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">5</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">BARBECUE SAUCE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">5</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">SARAY DIP</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">5</span></span> 
-    <div class="iteam_desc"> </div>
-  </div>
-  
-   </div></div> </div>
-<div class="section-main-box">
- <div class="section-main-title"><h2> DESSERTS </h2></div>
- <div class="ITEM_MAIN clearfix"><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">APPLE CRUMBLE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">30</span></span> 
-    <div class="iteam_desc"> Homemade apple filling topped with crumbles</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">TRADITIONAL BREAD PUDDING</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">30</span></span> 
-    <div class="iteam_desc"> Bread-based dessert served with wild berry compote</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">CREME BRULEE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">30</span></span> 
-    <div class="iteam_desc"> Custard vanilla, sugar, eggs and cream</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">NEW YORK CHEESECAKE</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">30</span></span> 
-    <div class="iteam_desc"> Sweet dessert consists of cheese, egg, vanilla and cream</div>
-  </div>
-  
-   </div><div class="ITEM">
-  <div class="ITEM_INTRO"> <span class="menuname">CHOCOLATE BROWNIES</span> <span class="menu-price-box"><span class="pipe">-</span> <span class="menu-price">30</span></span> 
-    <div class="iteam_desc"> Moist and fudge chocolate brownies</div>
-  </div>
-  
-   </div></div> </div>
-</div> </div></div>
-      </div>
+        <footer id="Footer" class="clearfix">
+            <div class="widgets_wrapper" style="padding:120px 0 105px;">
+                <div class="container">
+                    <div class="column one-fourth">
+                        <aside id="text-3" class="widget widget_text">
+                            <div class="textwidget">
+                                <div class="foot-p" style="text-align: center">
+                                    <h4>Contacto</h4>
+                                    <div style="width: 30%; height: 1px; background: #b2b2b2; margin: 0 auto"></div>
+                                    <hr class="no_line" style="margin: 0 auto 15px">
+                                    <p>
+                                        <strong>Agua y Sal</strong> es una Cebichería de cocina latinoaméricana que rinde un homenaje a los pueblos de pescadores de México, Centro, Sudamérica y el Caribe, con una selección de los mejores platillos de sus costas...
+                                    </p>
+                                    <p style="margin-bottom: 0px;">
+                                        Teléfonos
+                                        <br/>+52(55)52822746 - +52(55)52809520
+                                    </p>
+                                    <p style="word-wrap: break-word;">
+                                        <a href="mailto:contacto@aguaysal.com.mx">contacto@aguaysal.com.mx</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column one-fourth">
+                        <aside id="text-2" class="widget widget_text">
+                            <div class="textwidget">
+                                <div class="foot-p" style="text-align: center">
+                                    <h4>Ubicación</h4>
+                                    <div style="width: 30%; height: 1px; background: #b2b2b2; margin: 0 auto"></div>
+                                    <hr class="no_line" style="margin: 0 auto 15px">
+                                    <p>
+                                        <strong>Agua & Sal | Cebichería</strong><br/>
+                                        Campos Elíseos 199-A<br/>
+                                        Polanco C.P. 11560<br/>
+                                        Delegación Miguel Hidalgo, <br/>
+                                        Ciudad de México
+                                    </p>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column one-fourth">
+                        <aside id="text-4" class="widget widget_text">
+                            <div class="textwidget">
+                                <div class="foot-p" style="text-align: center;">
+                                    <h4>Horario de Servicio</h4>
+                                    <div style="width: 30%; height: 1px; background: #b2b2b2; margin: 0 auto"></div>
+                                    <hr class="no_line" style="margin: 0 auto 15px">
+                                    <p>
+                                        <strong>Lunes a Sábado de</strong><br/>
+                                        12:00 a 22:00 hrs.<br/>
+                                        <strong>Domingo de</strong><br/> 
+                                        12:00 a 18:00 hrs.
+                                    </p>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="column one-fourth">
+                        <aside id="text-4" class="widget widget_text">
+                            <div class="textwidget">
+                                <div class="foot-p" style="text-align: center;">
+                                    <h4>Redes Sociales</h4>
+                                    <div style="width: 30%; height: 1px; background: #b2b2b2; margin: 0 auto"></div>
+                                    <hr class="no_line" style="margin: 0 auto 15px">
+                                    <a target="_blank" href="https://www.facebook.com/aguaysaldf" class="icon_bar icon_bar_facebook icon_bar_small" target="_blank">
+                                        <span class="t"><i class="icon-facebook"></i></span><span class="b"><i class="icon-facebook"></i></span>
+                                    </a>
+                                    <a target="_blank" href="https://plus.google.com/111013423096037332823/about" class="icon_bar icon_bar_google icon_bar_small" target="_blank">
+                                        <span class="t"><i class="icon-google"></i></span><span class="b"><i class="icon-google"></i></span>
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/aguaysaldf" class="icon_bar icon_bar_twitter icon_bar_small">
+                                        <span class="t"><i class="icon-twitter"></i></span><span class="b"><i class="icon-twitter"></i></span>
+                                    </a>
+                                    <br/>
+                                    <a target="_blank" href="https://es.pinterest.com/aguaysaldf/" class="icon_bar icon_bar_pinterest icon_bar_small">
+                                        <span class="t"><i class="icon-pinterest"></i></span><span class="b"><i class="icon-pinterest"></i></span>
+                                    </a>
+                                    <a target="_blank" href="https://instagram.com/aguaysaldf/" class="icon_bar icon_bar_instagram icon_bar_small">
+                                        <span class="t"><i class="icon-instagram"></i></span><span class="b"><i class="icon-instagram"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                <div class="container">
+                    <div class="column one">
+                        <div class="copyright" style="font-size: 12px;">
+                            &copy; 2020 Agua & Sal | Cebichería - Designed by <a target="_blank" href="http://warptech.mx">warptech.mx</a>
+                        </div>
+                        <ul class="social"></ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-    <div class="menu-btn carouselitems">
-<a class="button" role="button" href="our-menus.html">View Menu</a>
-</div> </div>
-</div> </div>
+    <div><a href="index.html#restorandoModal" class="tab_reservas portfolio-link" data-toggle="modal">RESERVAS</a></div>
+    <!-- Side Menu -->
+    <div id="Side_slide" class="right dark">
+        <div class="close-wrapper">
+            <a href="index.html#" class="close"><i class="icon-cancel-fine"></i></a>
+        </div>
+        <div class="menu_wrapper"></div>
     </div>
-   </div>
-   <div class="bottommiddle">
-    <div class="homesection3">
-     <div class="quotebg"><div class="food-quote carouselitems">
-	<div class="quote-sec"></div>
-  <div class="designation-sec"></div>
-</div> </div>
-    </div>
-    <div class="homesection2">	</div>
-   </div>
-  <!--  <div class="homesection5"> <div class="container"><div class="insta-sec"><div class="insta-pics carouselitems">
-  <div class="insta-title"></div>
-  <div class="insta-shortdes"></div>
-</div>
-</div>
-    <div class="insta-feed"><div class="instagram-post-image"><a href="https://www.instagram.com/p/BXFuUpYFgP1/" target="_blank">
- <img class="loading-img" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s320x320/20393978_973592149450071_1394313703322550272_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=Z_Qx02INIAQAX9Vayp_&oh=3a7172f90a0f1e525f698d82fe7bb40a&oe=5EED0310" height="270" width="270" alt="#foundhotels" >
-</a></div><div class="instagram-post-image"><a href="https://www.instagram.com/p/BXFuS4PllC8/" target="_blank">
- <img class="loading-img" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s320x320/20398166_156799658227570_9154095395486302208_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=w1J30p2W5YkAX-B63bG&oh=40b44605bf440e3d47db0fd088616bb7&oe=5EEBB3AB" height="270" width="270" alt="#foundhotels" >
-</a></div><div class="instagram-post-image"><a href="https://www.instagram.com/p/BXFuQTzFmII/" target="_blank">
- <img class="loading-img" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s320x320/20398239_1526272687434486_1516378984567275520_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=2u2GuLA0NSMAX8P0Tdx&oh=fae01f19bd2109f38e8d91c95b1681db&oe=5EEC7FC0" height="270" width="270" alt="#foundhotels" >
-</a></div><div class="instagram-post-image"><a href="https://www.instagram.com/p/BXFuNsVFDej/" target="_blank">
- <img class="loading-img" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s320x320/20394267_137320046862643_7296547994453671936_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=2OONA-NubmkAX-XffJe&oh=213ee59274da898771924339fafc3d6b&oe=5EEBD3C8" height="270" width="270" alt="#foundhotels" >
-</a></div><div class="instagram-post-image"><a href="https://www.instagram.com/p/BXFuKvRlTNu/" target="_blank">
- <img class="loading-img" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s320x320/20398942_112089436116349_7579209743642656768_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=cj6drg4lALsAX89Ph_8&oh=e733a83f5d115ebaa31b0286e40fb66d&oe=5EEC56FA" height="270" width="270" alt="#foundhotels" >
-</a></div><div class="instagram-post-image"><a href="https://www.instagram.com/p/BXFuIiTlrNu/" target="_blank">
- <img class="loading-img" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s320x320/20347630_833412246816506_8028593185435418624_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=dCU9vZhjzE8AX9OjIw1&oh=9bcc773292f5f4768a97269d143619a6&oe=5EED7AE6" height="270" width="270" alt="#foundhotels" >
-</a></div><div class="instagram-post-image"><a href="https://www.instagram.com/p/BU1m7azF5x-/" target="_blank">
- <img class="loading-img" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s320x320/18888507_1367552570005866_3340944940891897856_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=OoKPGQS15mUAX_NNNNW&oh=13c0a4f02b14929683f4d5462c25d01d&oe=5EEDC368" height="270" width="270" alt="#BeyondAllInclusiveBeyondAllCompareUltraLuxuryResorts" >
-</a></div><div class="instagram-post-image"><a href="https://www.instagram.com/p/BU1md5hlC2Q/" target="_blank">
- <img class="loading-img" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s320x320/18808991_307112196400067_4128493362879660032_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=VufHvVZizoQAX8nKdH2&oh=2b9b16ee85048496cd19898efb98b1d0&oe=5EEC216B" height="270" width="270" alt="#BeyondAllInclusiveBeyondAllCompareUltraLuxuryResorts" >
-</a></div></div>
-    </div></div> -->
-   <!-- Footer Section --> 
-   <div id="note">
- <div class="container">
-  <footer class="footer-warp"> 
-   <div class="hotel-adddress"> <span class="hotel_name">Safi Steakhouse</span> <span class="hotel_add"> <span class="street-address">Ajman Saray, a Luxury Collection Resort, Sheikh Humaid Bin Rashid Al Nuaimi Street</span>, <span class="locality">Al Nakhil 2</span>, <span class="f-address"> <span class="region"></span> <span>Ajman</span> </span> </span> </div>
-   <div class="social-media"> <ul><li> <a class="facebook" target="_blank" href="https://www.facebook.com/ajmansarayresort" rel="nofollow"><span class="icon-facebook icon-s"></span><span class="sr-only">facebook</span></a> </li><li> <a class="twitter" target="_blank" href="https://twitter.com/ajmansaray" rel="nofollow"><span class="icon-twitter icon-s"></span><span class="sr-only">twitter</span></a> </li><li> <a class="instagram" target="_blank" href="https://www.instagram.com/ajman_saray/" rel="nofollow"><span class="icon-instagram icon-s"></span><span class="sr-only">instagram</span></a> </li></ul> </div>
-   <div class="popular-links"> <ul class="footer-ul"><li class="f-link2 carouselitems">
+    <div id="body_overlay"></div>
+    <!-- Restorando Modal -->
+        <div class="portfolio-modal modal fade" id="restorandoModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <script type='text/javascript' src='http://www.opentable.com.mx/widget/reservation/loader?rid=191974&amp;domain=commx&amp;type=standard&amp;theme=standard&amp;lang=en-US&amp;overlay=false&amp;iframe=true'></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- pop up -->
+    <!--
+    <div id="popup-1" class="popup-content">
+        <div class="popup-inner">
+            <div style="margin: auto; width: 240px;">
+                <restorando-widget restaurant-id="8611" type="vertical" width="240" height="405" />
+                <script type="text/javascript" src="http://widgets.restorando.com/reservation-widget.js"></script>
+            </div>
+        </div>
+    </div> -->
+    <!-- end pop up -->
+    <!-- JS -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/jquery-2.1.4.min.js"></script>
 
-<a href="site-map.html" class="nav">Site Map</a>
-</li><li class="f-link3 carouselitems">
+    <script src="js/mfn.menu.js"></script>
+    <script src="js/jquery.plugins.js"></script>
+    <script src="js/jquery.jplayer.min.js"></script>
+    <script src="js/animations/animations.js"></script>
+    <script src="js/translate3d.js"></script>
+    <script src="js/scripts.js"></script>
 
-<a href="https://www.marriott.com/about/privacy.mi" class="nav" target="_blank" rel="nofollow">Privacy Policy</a>
-</li><li class="f-link4 carouselitems">
+    <script src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
-<a href="website-accessibility.html" class="nav">Website Accessibility</a>
-</li><li class="l-universal-footer-link" id="teconsent"> </li></ul> </div>
- 
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="plugins/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
 
+    <script type="text/javascript">
+        var tpj = jQuery;
+        var revapi1;
+        tpj(document).ready(function() {
+            if (tpj("#rev_slider_1_1").revolution == undefined) {
+                revslider_showDoubleJqueryError("#rev_slider_1_1");
+            } else {
+                revapi1 = tpj("#rev_slider_1_1").show().revolution({
+                    sliderType: "standard",
+                    sliderLayout: "auto",
+                    dottedOverlay: "none",
+                    delay: 4000,
+                    navigation: {
+                        onHoverStop: "off",
+                    },
+                    visibilityLevels: [1240, 1024, 778, 480],
+                    gridwidth: 1080,
+                    gridheight: 800,
+                    lazyType: "none",
+                    shadow: 0,
+                    spinner: "spinner2",
+                    stopLoop: "off",
+                    stopAfterLoops: -1,
+                    stopAtSlide: -1,
+                    shuffle: "off",
+                    autoHeight: "off",
+                    disableProgressBar: "on",
+                    hideThumbsOnMobile: "off",
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    debugMode: false,
+                    fallbacks: {
+                        simplifyAll: "off",
+                        nextSlideOnWindowFocus: "off",
+                        disableFocusListener: false,
+                    }
+                });
+            }
+        });
+        /*]]>*/
+    </script>
+    <script id="mfn-dnmc-retina-js">
+        jQuery(window).load(function() {
+            var retina = window.devicePixelRatio > 1 ? true : false;
+            if (retina) {
+                var retinaEl = jQuery("#logo img.logo-main");
+                var retinaLogoW = retinaEl.width();
+                var retinaLogoH = retinaEl.height();
+                retinaEl.attr("src", "/images/retina-restaurant2new.png").width(retinaLogoW).height(retinaLogoH);
+                var stickyEl = jQuery("#logo img.logo-sticky");
+                var stickyLogoW = stickyEl.width();
+                var stickyLogoH = stickyEl.height();
+                stickyEl.attr("src", "/images/retina-restaurant2new.png").width(stickyLogoW).height(stickyLogoH);
+                var mobileEl = jQuery("#logo img.logo-mobile");
+                var mobileLogoW = mobileEl.width();
+                var mobileLogoH = mobileEl.height();
+                mobileEl.attr("src", "/images/retina-restaurant2new.png").width(mobileLogoW).height(mobileLogoH);
+                var mobileStickyEl = jQuery("#logo img.logo-mobile-sticky");
+                var mobileStickyLogoW = mobileStickyEl.width();
+                var mobileStickyLogoH = mobileStickyEl.height();
+                mobileStickyEl.attr("src", "/images/retina-restaurant2new.png").width(mobileStickyLogoW).height(mobileStickyLogoH);
+            }
+        });
+    </script>
+    <!-- Restorando -->
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-</footer>
- </div>
-</div>
- 
-   <!-- Footer END--> 
-  </div>
-  <script>
-document.write(unescape("%3Cscript src='https://www.safirestaurant.com/dynamic/js/home.aspx?version=5072020085245' type='text/javascript'%3E%3C/script%3E"));</script> 
-  <script>
-var meetingRFPCaptcha, dformQuickRFPCaptcha, eventRFPCaptcha, emailOfferRFPCaptcha, weddingRFPCaptcha, quickRFPCaptcha,groupsFormCaptcha, commentPostFormCaptcha;
-   var onloadCallback = function() {    
-if(document.getElementById("commentsPostForm-captcha")) {
-var commentPostFormCaptcha= grecaptcha.render('commentsPostForm-captcha', {
-     'sitekey' : '6LfQhxcUAAAAAMTUvCndLP3XRrkwIhzNdsaTbo12',
-    });
-}
-if(document.getElementById("dformQuickRFP-captcha")) {
-	var quickRFPCaptcha= grecaptcha.render('dformQuickRFP-captcha', {
-     'sitekey' : '6LfQhxcUAAAAAMTUvCndLP3XRrkwIhzNdsaTbo12',
-    });
-}
+        ga('create', 'UA-54538206-5', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
 
-if(document.getElementById("weddingForm-captcha")) {
-	var	meetingRFPCaptcha= grecaptcha.render('weddingForm-captcha', {
-     'sitekey' : '6LfQhxcUAAAAAMTUvCndLP3XRrkwIhzNdsaTbo12',
-    });
-}
-if(document.getElementById("weddingQuickForm-captcha")) {
-	var	meetingRFPCaptcha= grecaptcha.render('weddingQuickForm-captcha', {
-     'sitekey' : '6LfQhxcUAAAAAMTUvCndLP3XRrkwIhzNdsaTbo12',
-    });
-}
-if(document.getElementById("meetingForm-captcha")) {
-	var	meetingRFPCaptcha= grecaptcha.render('meetingForm-captcha', {
-     'sitekey' : '6LfQhxcUAAAAAMTUvCndLP3XRrkwIhzNdsaTbo12',
-    });
-}
-if(document.getElementById("contactForm-captcha")) {
-	var	contactFormCaptcha= grecaptcha.render('contactForm-captcha', {
-     'sitekey' : '6LfQhxcUAAAAAMTUvCndLP3XRrkwIhzNdsaTbo12',
-    });
-}
-if(document.getElementById("groups-captcha")) {
-	var	groupsFormCaptcha= grecaptcha.render('groups-captcha', {
-     'sitekey' : '6LfQhxcUAAAAAMTUvCndLP3XRrkwIhzNdsaTbo12',
-    });
-}
-if(document.getElementById("meetingQuickForm-captcha")) {
-	var	meetingRFPCaptcha= grecaptcha.render('meetingQuickForm-captcha', {
-     'sitekey' : '6LfQhxcUAAAAAMTUvCndLP3XRrkwIhzNdsaTbo12',
-    });
-}
-if(document.getElementById("emailOfferForm-captcha")) {
-	var emailOfferRFPCaptcha= grecaptcha.render('emailOfferForm-captcha', {
-     'sitekey' : '6LfQhxcUAAAAAMTUvCndLP3XRrkwIhzNdsaTbo12',
-    });
-}
-if(document.getElementById("newBlogCommentForm-captcha")) {
-	var newBlogCommentFormCaptcha= grecaptcha.render('newBlogCommentForm-captcha', {
-     'sitekey' : '6LfQhxcUAAAAAMTUvCndLP3XRrkwIhzNdsaTbo12',
-    });
-}
-if(document.getElementById("reviewForm-captcha")) {
-	var reviewForm = grecaptcha.render('reviewForm-captcha', {
-     'sitekey' : '6LfQhxcUAAAAAMTUvCndLP3XRrkwIhzNdsaTbo12',
-    });
-}
-   };
-  </script>
-<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async="" defer=""></script> 
-  
-  <script id="msCookiePolicy">
-	var CookieBanner = null;	
-	CookieBanner = {
-		moveToTop_msCookieBanner: function() {
-			if (document.getElementById("msCookieBanner"))
-				if (window.getComputedStyle(document.getElementById("msCookieBanner"), null).getPropertyValue('position') == 'fixed') {
-					var elems = document.body.getElementsByTagName("*");
-					var len = elems.length;
-					for (var i = 0; i < len; i++) {
-						var condition1 = false;
-						var condition2 = false;
-						try {
-							if (window.getComputedStyle(elems[i], null).getPropertyValue('position') == 'fixed') {
-								condition1 = true;
-							} else condition1 = false;
-							if (elems[i].className.indexOf('fixreservationbottom') > -1) {
-								condition2 = true;
-							} else condition2 = false;
-							if ((condition1 == true || condition2 == true) && elems[i].id != "msCookieBanner") {
-								elems[i].className += " pushItDown";
-							}
-						} catch (err) {
-							/* document.getElementById("demo").innerHTML = err.message; */
-						}
-					}
-				}
-		},
-		hideCookieBanner: function() {
-			var newClasss = "";
-			var cname = "msCookieBanner";
-			var cvalue = "accepted";
-			var exdays = 365;
-			var d = new Date();
-			d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-			var expires = "expires=" + d.toUTCString();
-			document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-			var elem = document.getElementById('msCookieBanner');
-			elem.parentNode.removeChild(elem);
-			var elems = document.body.getElementsByTagName("*");
-			var len = elems.length;
-			for (var i = 0; i < len; i++) {
-				if (elems[i].className.indexOf('pushItDown') > -1) {
-					newClasss = elems[i].className.replace('pushItDown', '');
-					elems[i].className = newClasss;
-				}
-			}
-		},
-		check_and_appendCookieBanner: function() {
-			var userCookiePreference = "noanswer";
-			var cname = "msCookieBanner";
-			var name = cname + "=";
-			var ca = document.cookie.split(';');
-			for (var i = 0; i < ca.length; i++) {
-				var c = ca[i];
-				while (c.charAt(0) == ' ') {
-					c = c.substring(1);
-				}
-				if (c.indexOf(name) == 0) {
-					userCookiePreference = c.substring(name.length, c.length);
-					i = ca.length + 1;
-				}
-			}
-			if (userCookiePreference != "accepted") {
-				var iDiv;
-				var theParent = document.getElementsByTagName('body')[0];
-				if (document.getElementById('msCookieBanner')) {
-					iDiv = document.getElementById('msCookieBanner');
-				} else {
-					iDiv = document.createElement('div');
-					iDiv.id = 'msCookieBanner';
-					theParent.insertBefore(iDiv, theParent.firstChild);
-				}
-				iDiv.className = 'msCookieBanner';
-				iDiv.innerHTML = '<div class="left"> Our site uses cookies. By continuing to use our site you are agreeing to our <a href="https://www.marriott.com/about/privacy.mi" target="_blank">cookie policy</a>.</div><div class="right"><button onclick="window.CookieBanner.hideCookieBanner();">Accept & Close</button></div><div style="clear:both"></div>';
-				var styles = '#msCookieBanner {font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:48px; box-sizing:border-box; height:48px; width:100%; position:fixed;top:0px; z-index:1001}';
-				styles += ' #msCookieBanner {background-color:#000000;color:#FFFFFF; border-top:2px solid #FFFFFF; border-bottom:2px solid #FFFFFF;}';
-				styles += ' #msCookieBanner .left {width:75%;display:inline-block; text-align:center;}';
-				styles += ' #msCookieBanner .right {width:25%;display:inline-block;}';
-				styles += ' #msCookieBanner .right button {border:none;padding:5px;background-color:#FFFFFF;color:#000000;border: solid 1px #fff;cursor: pointer;}';
-				styles += ' #msCookieBanner .right button:focus, #msCookieBanner .right button:hover {background: #000;color: #fff;}';
-				styles += ' #msCookieBanner a, #msCookieBanner a:link, #msCookieBanner a:visited {color:#fff; border-bottom:dashed 1px #fff; }';
-				styles += ' #msCookieBanner a:hover, #msCookieBanner a:focus {color:#fff; border-bottom:solid 1px #fff; }';
-				styles += ' .pushItDown {margin-top: 48px !important; }';
-				var css = document.createElement('style');
-				css.type = 'text/css';
-				if (css.styleSheet) css.styleSheet.cssText = styles;
-				else css.appendChild(document.createTextNode(styles));
-				document.getElementsByTagName("head")[0].appendChild(css);
-			}
-		}
-	};
-	setTimeout(function() {
-		CookieBanner.check_and_appendCookieBanner();
-		CookieBanner.moveToTop_msCookieBanner();
-	}, 3000);	
-</script>
-  <!-- --><style>
-.corona_close.bar { color: #FFFFFF;top:5px}
-.covid.bar {
- text-align: center;
-}
-.covid.bar div { display: inline; }
-.corona_modal-content.bar {
- transform: none;
- width: 100%;
- left: 0;
- top: 0;
- position: relative;
- max-width: 100%;
- padding: 5px;
- border-radius: 0;
- background-color: #000000;
- color: #FFFFFF;
-}
-
-.corona_modal.bar {
- transform: none;
- height: auto;
- width: 100%;
- top: 0;
- left: 0;
- background-color: #000000;
-border-bottom:1px solid #ffffff;
-}
-.covid1.bar {text-align: center;font-weight: bold;display: inline;}
-
-.covid7.bar a:hover {
- text-decoration: underline;
-}
-.covid7.bar {
- display: inline;
- border: none;
-}
-.covid7.bar a {
-  display: inline-block;
- /* border: 1px solid #CCCCCC; */
- /* background-color: #FFFFFF; */
- color: #ffffff;
- font-size: 16px;
- text-decoration: underline;
- padding: 0;
- margin: 0;
-background-image: url(milestone_common/tb.png);
- background-repeat: no-repeat;
- background-position: right;
- padding-right: 35px;
-}
-
-.coronaTopBarEffect.pushItDown {
- margin-top: 86px !important;
-}
-/* ------- */
-.corona_close {
- cursor:pointer
-}
-.corona_modal {
- transform: translate(-50%, -50%);
- display: none;
- position: fixed;
- z-index: 1001;
- left: 50%;
- top: 50%;
- width: 100%;
- height: 100%;
- overflow: auto;
- background-color: rgb(0,0,0);
- background-color: rgba(0,0,0,0.5);/* background: #fff; */
-}
-.corona_modal-content {
- border-radius: 10px;
- color: #000000;
- margin: auto;
- background-color: #ffffff;
- padding: 50px 60px;
- /* border: 1px solid #888; */
- -webkit-box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.15);
- -moz-box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.15);
- box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.15);
- max-width: 550px;
- width: 80%;
- box-sizing: border-box;
- position: fixed;
- left: 50%;
- top: 50%;
- transform: translate(-50%, -50%);
-}
-.corona_close {
- color: #000000;
- display: block;
- text-align: right;
- font-size: 35px;
- font-weight: bold;
- position: absolute;
- right: 20px;
- top: 20px;
-}
-.covid1 {
- font-size: 16px;
- text-transform: uppercase;
- padding-bottom: 5px;
-}
-.covid2 {
- font-size: 30px;
- font-weight: bold;
- margin-bottom: 20px;
- line-height: 38px;
-}
-.covid4 {
- font-size: 16px;
- line-height: 22px;
- padding: 20px 0 10px 0;
-}
-.covid5 {
- padding: 10px 17px 0px 17px;
- font-size: 16px;
- line-height: 22px;
-}
-.covid5 ul li {
- padding-bottom: 3px;
-}
-ul.covid6 {
- list-style: initial;
-}
-.covid7 {display:none;
-padding: 10px;
- border: 1px solid #cccccc;
- margin-top: 10px;}
-@media only screen and (max-width:680px) {
-.corona_modal-content {
- padding: 30px 30px;
- width:90%;
-}
-.covid2 {
- font-size: 22px;
- margin-bottom: 10px;
- line-height: 28px;
-}
-.covid5 {
- padding: 10px 17px 0px 17px;
-}
-.corona_close {
- right: 12px;
- top: 12px;
-}
-}
-#covid0txt {display:none}
-.coronaTopBarEffect{margin-top:38px}
-</style>
-<div id="corona_myModal" class="corona_modal nobar"> 
- <div class="corona_modal-content nobar"> 
-  <span class="corona_close nobar">&times;</span> 
-<div class="covid nobar"> 
-<div class="covid1 nobar" id="covid1txt"></div> 
-<div class="covid1 nobar" id="covid0txt"></div> 
-<div class="covid2" id="covid2txt">COVID-19 UPDATE</div>
-<div class="covid4" id="covid4txt">Due to mandatory government closing of all restaurants and bars due to COVID-19, Safi Seafood Restaurant will be closed until further notice.
-</div> 
-<div class="covid5" id="covid5txt">
- 
-<ul class="covid6"> 
-<li id="covid61txt"></li>
-<li id="covid62txt"></li>
-<li id="covid63txt"> </li> 
-</ul> </div> 
-<div class="covid7 nobar">
- <a target='blank' href="index.html" rel="nofollow"></a></div> 
-</div> 
- </div>
-</div>
-<script>
-// Get the modal
-function removeCorona()
-{
-var elems = document.body.getElementsByTagName("*");
-				var len = elems.length;
-			
-				for (var i=0;i<len;i++) {
-				
-					if(typeof(elems[i].className)=='string')
-					{
-					if (elems[i].className.indexOf('coronaTopBarEffect')>-1) {
-						newClasss = elems[i].className.replace('coronaTopBarEffect', '');
-						elems[i].className = newClasss;
-					}
-					}
-				
-				}
-}
-function pushDownCorona()
-{
-if (document.getElementById("corona_myModal"))			
-				if (window.getComputedStyle(document.getElementById("corona_myModal"),null).getPropertyValue('position') == 'fixed')
-				{
-				var elems = document.body.getElementsByTagName("*");
-				var len = elems.length;
-				
-				for (var i=0;i<len;i++) {
-					
-					var condition1 = false;
-					var condition2 = false;
-					
-					 try { 
-					
-					if (window.getComputedStyle(elems[i],null).getPropertyValue('position') == 'fixed')
-					{
-						condition1 = true;
-					} else condition1 = false;
-					if(elems[i].className.indexOf('fixreservationbottom')>-1) 
-					{
-						
-						condition2 = true;
-						
-					} else condition2 = false;
-					if ((condition1 == true || condition2 == true) && elems[i].id!="corona_myModal") {
-						
-						elems[i].className += " coronaTopBarEffect";
-					} 
-				
-					 }
-					catch(err) {
-							 /* document.getElementById("demo").innerHTML = err.message; */
-						} 
-				}	
-				}
-}
-
-var modal = document.getElementById("corona_myModal");
-var span = document.getElementsByClassName("corona_close")[0];
-modal.style.display = "block";
-if ( 'bar' == 'nobar' )
-{
-var theParent = document.getElementsByTagName('body')[0];
-theParent.insertBefore(modal , theParent.firstChild);
-}
-span.onclick = function() {
- modal.style.display = "none";
-removeCorona();
-}
-
-window.onclick = function(event) {
- if (event.target == modal) {
- modal.style.display = "none";
-removeCorona();
- }
-}
-
-
-if (document.getElementById("covid1txt").innerText == '') {document.getElementById("covid1txt").style.display='none';}
-if (document.getElementById("covid0txt").innerText != '') {
-document.getElementById("covid0txt").style.display='block';
-document.getElementById("covid1txt").style.display='none';}
-
-if (document.getElementById("covid2txt").innerText == '') {document.getElementById("covid2txt").style.display='none';}
-if (document.getElementById("covid4txt").innerText == '') {document.getElementById("covid4txt").style.display='none';}
-if (document.getElementById("covid61txt").innerText == ''){document.getElementById("covid61txt").style.display='none';} 
-if (document.getElementById("covid62txt").innerText == '') {document.getElementById("covid62txt").style.display='none';}
-if (document.getElementById("covid63txt").innerText == '') {document.getElementById("covid63txt").style.display='none';}
-if (document.getElementById("covid5txt").innerText == '') {document.getElementById("covid5txt").style.display='none';}
-
-if ( 'bar' == 'nobar' )
-{
-
-if (document.getElementById("covid0txt").innerText != '') {
-document.getElementById("covid0txt").style.display='inline-block';
-document.getElementById("covid1txt").style.display='none';}
-
-document.getElementById("covid2txt").style.display='none';
-document.getElementById("covid4txt").style.display='none';
-document.getElementById("covid5txt").style.display='none';
-
-if(document.getElementById("hdndevicetype").value == 'desktop') 
-{
-pushDownCorona();
-}
-
-}
-</script><!-- -->
- <input type='hidden' id='hdnparentpageid' value='0'><input type='hidden' id='hdnpageid' value='166566'><input type='hidden' id='hdntemplatename' value='Home.aspx'><input type='hidden' id='hdnpagealias' value='milestone'><input type='hidden' id='hdnclientaccess' value='0'><input type='hidden' id='hdndevicetype' value='desktop'><input type='hidden' id='hdntabletdetection' value='2'><input type='hidden' id='hdnmobiledetection' value='4'><input type='hidden' id='hdnismobile' value='0'><input type='hidden' id='hdnclientmoderation' value=''><input type='hidden' id='hdndifferenttabletcontent' value='0'><input type='hidden' id='hdndifferentmobilecontent' value='0'><input type='hidden' id='hdnusertypeid' value=''><input type='hidden' id='hdnmilestoneSiteID' value='3036'><input type='hidden' id='Pod-ID' value='10'><input type='hidden' id='hdnlanguagepages' value='{"languagepages":[{"en": "https://www.safirestaurant.com/milestone"}]}'><input type='hidden' id='hdnmemberemail' value=''><input type='hidden' id='hdnmembername' value=''><input type='hidden' id='hdnexternalpage' value='0'><input type='hidden' id='hdnpagestatus' value='1'><input type='hidden' id='hdnmilestoneSiteURL' value='https://www.safirestaurant.com/'><input id="hddevicetype" value="desktop" type="hidden"><script id="autoAnalyticsRules" src="milestone_common/autoanalyticsrules_marriott.min.json"></script><script id="autoAnalyticsManager" src="milestone_common/autoanalyticsmanager_marriott.min.js"></script></body>
 </html>
-
